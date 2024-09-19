@@ -1,9 +1,10 @@
-package es.ua.dlsi.prog3.p1;
-
+package es.ua.dlsi.prog3.p1.test;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import es.ua.dlsi.prog3.p1.Coordinate;
 
 /**
  * Unit tests for the class SummaryStatistics 

@@ -1,6 +1,7 @@
+package es.ua.dlsi.prog3.p1;
 import java.util.ArrayList;
 
-class SummaryStatistics {
+public class SummaryStatistics {
     private static int NEXT_ID = 1;
     private int id;
     private ArrayList<Integer> values;

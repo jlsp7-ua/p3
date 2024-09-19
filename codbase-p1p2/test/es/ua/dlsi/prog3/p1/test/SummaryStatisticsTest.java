@@ -1,4 +1,4 @@
-package es.ua.dlsi.prog3.p1;
+package es.ua.dlsi.prog3.p1.test;
 
 import static org.junit.Assert.*;
 
@@ -9,6 +9,8 @@ import java.util.Arrays;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import es.ua.dlsi.prog3.p1.SummaryStatistics;
 
 /**
  * Unit tests for the class SummaryStatistics 
