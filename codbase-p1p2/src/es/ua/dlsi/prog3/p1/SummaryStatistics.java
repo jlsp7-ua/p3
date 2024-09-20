@@ -33,11 +33,11 @@ public class SummaryStatistics {
         }
         return suma/values.size();
     }
-    public int getMax() {
+    public Integer getMax() {
         return values.isEmpty() ? null : values.stream().reduce(Integer.MIN_VALUE, Math::max);
         // Tomamos `Integer.MIN_VALUE` para asegurarnos que coge el primer elemento de `values`
     }
-    public int getMin() {
+    public Integer getMin() {
         return values.isEmpty() ? null : values.stream().reduce(Integer.MAX_VALUE, Math::min);
     }
     public int getSize() {
