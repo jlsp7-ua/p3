@@ -1,6 +1,7 @@
 package es.ua.dlsi.prog3.p3.highlevel;
 
 import java.nio.BufferUnderflowException;
+import java.util.ArrayList;
 
 import es.ua.dlsi.prog3.p3.lowlevel.*;
 
@@ -45,15 +46,30 @@ public class Display extends OutputDevice {
 	
 	/**
 	 * Desactiva todos los píxeles de la pantalla, es decir, le asigna
-	 * un valor distinto 0 a cada uno de los bytes para que sean interpretados
-	 * como negros.
+	 * el valor 0 a cada uno de los bytes para que sean interpretados
+	 * como blancos, desactivados.
 	 */
 	public void clear() {
 		for(int j=0; j<pixel_rows; j++) {
 			for (int k=0; k<pixel_rows; k++) {
-				display[j][k] = 1;
+				display[j][k] = 0; // Cambiado
 			}
 		}
+	}
+	
+	/**
+	 * Método de instancia que devuelve una copia de la matriz display.
+	 * Se trata de una copia profunda.
+	 * @return copia_display Copia de la matriz display del objeto Display.
+	 */
+	private byte[][] copyOfDisplay() {
+		byte[][] copia_display = new byte[pixel_rows][pixel_rows];
+		for (int i=0; i<pixel_rows; i++) {
+			for (int j=0; j<pixel_rows; j++) {
+				copia_display[i][j] = display[i][j];
+			}
+		}
+		return copia_display;
 	}
 	
 	/**
@@ -64,24 +80,29 @@ public class Display extends OutputDevice {
 	 * @return copia_display una copia defensiva de la matriz display
 	 */
 	public byte[][] refresh() {
+		// Comprobación del canal
 		Channel canal = getChannel();
 		if (canal == null) throw new IllegalStateException();
-		byte[] buffer = get(pixel_rows*pixel_rows*2);
-		if (buffer.length < 2) throw new BufferUnderflowException();
-		clear();	// Limpiamos la pantalla
+		
+		
+		// Comprobación datos del canal
+		if (!canal.hasData()) return copyOfDisplay();
+		ArrayList<Byte> coordenadas = new ArrayList<>();
+		while (canal.hasData()) {
+			coordenadas.add(receiveFromChannel());
+		}
+		if (coordenadas.size()%2 != 0) throw new BufferUnderflowException();
+		
+		clear(); // Limpiamos la pantalla
+		
+		// ACtivar píxeles que tocan
 		int x, y;
-		for (int i=0; i<(pixel_rows*pixel_rows*2); i+=2) {
-			x = buffer[i];
-			y = buffer[i+1];
-			if (0>x || x>pixel_rows || 0>y || y>pixel_rows) throw new IndexOutOfBoundsException("Las coordenadas de los pixeles están fuera del tamaño de la matriz de la pantalla.");
-			display[x][y] = 0;
+		for (int i=0; i<coordenadas.size(); i+=2) {
+			x = coordenadas.get(i);
+			y = coordenadas.get(i+1);
+			if (0>x || x>=pixel_rows || 0>y || y>=pixel_rows) throw new IndexOutOfBoundsException("Las coordenadas de los pixeles están fuera del tamaño de la matriz de la pantalla.");
+			display[x][y] = 1; // Activar el píxel
 		}
-		byte[][] copia_display = new byte[pixel_rows][pixel_rows];
-		for(int j=0; j<pixel_rows; j++) {
-			for (int k=0; k<pixel_rows; k++) {
-				copia_display[j][k] = display[j][k];
-			}
-		}
-		return copia_display;
+		return copyOfDisplay();
 	};
 }

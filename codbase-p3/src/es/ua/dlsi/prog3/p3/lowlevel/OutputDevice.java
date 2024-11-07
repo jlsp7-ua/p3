@@ -29,7 +29,7 @@ public class OutputDevice extends IODevice {
 	 * @throws BufferOverflowException si no hay datos que leer en el canal.
 	 * @return el byte leído del canal.
 	 */
-	protected byte recieveFromChannel() {
+	protected byte receiveFromChannel() {
 		Channel canal = getChannel();
 		if (canal == null) throw new IllegalStateException();
 		if (!canal.hasData()) throw new BufferUnderflowException();
@@ -38,16 +38,23 @@ public class OutputDevice extends IODevice {
 	/**
 	 * Lee cómo máximo n bytes del canal asociado.
 	 * @param n cantidad de bytes que se leerán como máximo.
+	 * @throws IllegalStateException si no hay ningún canal asociado
+	 * @throws BufferUnderflowException si no hay datos para leer en el canal
 	 * @return array array de bytes que contiene cómo máximo n bytes leídos del canal.
 	 */
 	protected byte[] get(int n) {
+		// Comprobación n
+		if (n <= 0 || n > getBufferSize())
+			throw new IllegalArgumentException("El número de bytes debe ser mayor que cero.");
+		
+		// Comprobaciones del canal
 		Channel canal = getChannel();
 		if (canal == null) throw new IllegalStateException();
-		if (!canal.hasData()) throw new BufferUnderflowException();
+		
 		// Tomar los bytes del canal en un ArrayList
 		ArrayList<Byte> result = new ArrayList<>();
 		for (int i=0; i<n && canal.hasData(); i++) {
-			result.add(recieveFromChannel());
+			result.add(receiveFromChannel());
 		}
 		// Pasar de ArrayList a array
 		byte[] array = new byte[result.size()];
