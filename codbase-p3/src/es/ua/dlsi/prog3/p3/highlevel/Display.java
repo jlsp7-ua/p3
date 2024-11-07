@@ -101,7 +101,7 @@ public class Display extends OutputDevice {
 			x = coordenadas.get(i);
 			y = coordenadas.get(i+1);
 			if (0>x || x>=pixel_rows || 0>y || y>=pixel_rows) throw new IndexOutOfBoundsException("Las coordenadas de los pixeles están fuera del tamaño de la matriz de la pantalla.");
-			display[x][y] = 1; // Activar el píxel
+			display[y][x] = 1; // Activar el píxel
 		}
 		return copyOfDisplay();
 	};
