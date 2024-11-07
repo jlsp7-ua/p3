@@ -41,6 +41,9 @@ public class InputDevice extends IODevice {
 	protected void put(byte[] bs) {
 		Channel canal = getChannel();
 		if (canal == null) throw new IllegalStateException();
-		for (byte b : bs) {sendToChannel(b);}
+		for (byte b : bs) {
+			if (canal.isFull()) throw new BufferOverflowException();
+			sendToChannel(b);
+		}
 	};
 }

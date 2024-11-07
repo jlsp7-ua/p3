@@ -30,8 +30,12 @@ public class Mouse extends InputDevice {
 		Channel canal = getChannel();
 		if (canal == null) throw new IllegalStateException();
 		if (canal.isFull()) throw new BufferOverflowException();
+		
 		sendToChannel(x);
-		if (canal.isFull()) throw new BufferOverflowException();
-		sendToChannel(y);
+		try {
+			sendToChannel(y);
+		} catch (BufferOverflowException e) {
+			throw new BufferOverflowException();
+		}
 	}
 }
