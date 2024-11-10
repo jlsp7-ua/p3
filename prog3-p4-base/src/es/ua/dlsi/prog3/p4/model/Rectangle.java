@@ -11,6 +11,7 @@ public class Rectangle extends AbstractPolygon {
 	}
 	public Rectangle(Coordinate c, double ang, double l, double w) {
 		super(c, ang);
+		if (l<0 || w<0) throw new IllegalArgumentException();
 		length = l;
 		width = w;
 	}
@@ -19,7 +20,7 @@ public class Rectangle extends AbstractPolygon {
 	public double getWidth() {return width;}
 	
 	public Rectangle(Rectangle r) {
-		super(r.getPosition(),r.getAngle());
+		super(r); // .getPosition(),r.getAngle()
 		length = r.getLength();
 		width = r.getWidth();
 	}

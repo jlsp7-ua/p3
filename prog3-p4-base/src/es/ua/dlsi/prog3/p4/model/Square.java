@@ -15,7 +15,7 @@ public class Square extends AbstractPolygon {
 	}
 	
 	public Square(Square s) {
-		super(s.getPosition(), s.getAngle());
+		super(s); //s.getPosition(), s.getAngle()
 		side = s.getSide();
 	}
 	

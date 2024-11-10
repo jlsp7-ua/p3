@@ -7,7 +7,7 @@ public class Canvas {
 	private String title;
 	private double width;
 	private double height;
-	ArrayList<Shape2D> shapes;
+	private ArrayList<Shape2D> shapes;
 	
 	public Canvas() {
 		title = "default canvas";
@@ -26,17 +26,17 @@ public class Canvas {
 	
 	public void addShape(Shape2D s2) {shapes.add(s2.clone());}
 	
-	public Canvas clone() {return new Canvas(this);}
-	
 	public Canvas(Canvas c) {
 		title = c.getTitle();
 		width = c.getWidth();
 		height = c.getHeight();
 		shapes = new ArrayList<Shape2D>();
-		for (Shape2D s2 : getShapes()) {
+		for (Shape2D s2 : c.shapes) {
 			addShape(s2);
 		}
 	}
+	
+	public Canvas clone() {return new Canvas(this);}
 	
 	public int getNumShapes() {return shapes.size();}
 	
@@ -47,8 +47,7 @@ public class Canvas {
 	
 	public double getWidth() {return width;}
 	public double getHeight() {return height;}
-	private String getTitle() {return new String(title);}
-	private ArrayList<Shape2D> getShapes() {return new ArrayList<Shape2D>(shapes);}
+	String getTitle() {return new String(title);}
 	
 	public void removeShape(int pos) {
 		if (pos < 1 || pos > getNumShapes()) throw new IndexOutOfBoundsException();

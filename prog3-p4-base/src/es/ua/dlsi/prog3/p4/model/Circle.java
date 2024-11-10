@@ -10,13 +10,14 @@ public class Circle extends Shape2D {
 	
 	public Circle(Coordinate c, double r) {
 		super(c);
+		if (r<0) throw new IllegalArgumentException();
 		radius = r;
 	}
 	
 	public double getRadius() {return radius;}
 	
 	public Circle(Circle c) {
-		super(c.getPosition());
+		super(c); //.getPosition()
 		radius = c.getRadius();
 	}
 	
@@ -26,10 +27,7 @@ public class Circle extends Shape2D {
 	}
 	
 	@Override
-    public Shape2D clone() {
-        Circle clonedCircle = new Circle(this.getPosition(), this.radius); // Copia la posición actual
-        return clonedCircle;
-    }
+    public Shape2D clone() {return new Circle(this);}
 	
 	public String toString() {return super.toString() + ",radius=" + getRadius();}
 
