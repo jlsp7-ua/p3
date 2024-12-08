@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="863px" preserveAspectRatio="none" style="width:2102px;height:863px;background:#FFFFFF;" version="1.1" viewBox="0 0 2102 863" width="2102px" zoomAndPan="magnify"><defs/><g><!--MD5=[468c628577d61d66a0bda2743704dfd4]
+cluster es.ua.dlsi.prog3.p6.graph--><g id="cluster_es.ua.dlsi.prog3.p6.graph"><path d="M1612.5,28 L1789.5,28 A3.75,3.75 0 0 1 1792,30.5 L1799,50.4883 L2084.5,50.4883 A2.5,2.5 0 0 1 2087,52.9883 L2087,138.5 A2.5,2.5 0 0 1 2084.5,141 L1612.5,141 A2.5,2.5 0 0 1 1610,138.5 L1610,30.5 A2.5,2.5 0 0 1 1612.5,28 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1610" x2="1799" y1="50.4883" y2="50.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="1614" y="43.5352">es.ua.dlsi.prog3.p6.graph</text></g><!--MD5=[2fc1401dfb70301241c0530fe584cf74]
+cluster es.ua.dlsi.prog3.p6.reflection--><g id="cluster_es.ua.dlsi.prog3.p6.reflection"><path d="M583.5,6 L788.5,6 A3.75,3.75 0 0 1 791,8.5 L798,28.4883 L1583.5,28.4883 A2.5,2.5 0 0 1 1586,30.9883 L1586,661.5 A2.5,2.5 0 0 1 1583.5,664 L583.5,664 A2.5,2.5 0 0 1 581,661.5 L581,8.5 A2.5,2.5 0 0 1 583.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="581" x2="798" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="204" x="585" y="21.5352">es.ua.dlsi.prog3.p6.reflection</text></g><!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang--><g id="cluster_java.lang"><path d="M1007.5,730 L1071.5,730 A3.75,3.75 0 0 1 1074,732.5 L1081,752.4883 L1713.5,752.4883 A2.5,2.5 0 0 1 1716,754.9883 L1716,820.5 A2.5,2.5 0 0 1 1713.5,823 L1007.5,823 A2.5,2.5 0 0 1 1005,820.5 L1005,732.5 A2.5,2.5 0 0 1 1007.5,730 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1005" x2="1081" y1="752.4883" y2="752.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="1009" y="745.5352">java.lang</text></g><!--MD5=[7ae92e03fca65b42148e1a3bb07413fa]
+cluster es.ua.dlsi.prog3.p6.reflection.impl--><g id="cluster_es.ua.dlsi.prog3.p6.reflection.impl"><path d="M8.5,697 L249.5,697 A3.75,3.75 0 0 1 252,699.5 L259,719.4883 L978.5,719.4883 A2.5,2.5 0 0 1 981,721.9883 L981,853.5 A2.5,2.5 0 0 1 978.5,856 L8.5,856 A2.5,2.5 0 0 1 6,853.5 L6,699.5 A2.5,2.5 0 0 1 8.5,697 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="259" y1="719.4883" y2="719.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="10" y="712.5352">es.ua.dlsi.prog3.p6.reflection.impl</text></g><!--MD5=[762522d4a69e9939827a70a8bbd0c945]
+class es.ua.dlsi.prog3.p6.graph.Graph--><g id="elem_es.ua.dlsi.prog3.p6.graph.Graph"><rect codeLine="11" fill="#F1F1F1" height="62.3984" id="es.ua.dlsi.prog3.p6.graph.Graph" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="256" x="1626" y="63"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1629" y="91.4902">Graph</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="206" x="1679" y="60"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1780" y="72.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="188" x="1688" y="86.7344">NodeLabelType, EdgeLabelType</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1780" y="100.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1881" y1="109.3984" y2="109.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1881" y1="117.3984" y2="117.3984"/></g><!--MD5=[e71bd2e5f0a390004a9452bcc1cd9169]
+class es.ua.dlsi.prog3.p6.graph.Node--><g id="elem_es.ua.dlsi.prog3.p6.graph.Node"><rect codeLine="15" fill="#F1F1F1" height="62.3984" id="es.ua.dlsi.prog3.p6.graph.Node" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="1917.5" y="63"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="1920.5" y="91.4902">Node</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="109" x="1964.5" y="60"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="2017" y="72.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="91" x="1973.5" y="86.7344">NodeLabelType</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="2017" y="100.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="1918.5" x2="2069.5" y1="109.3984" y2="109.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="1918.5" x2="2069.5" y1="117.3984" y2="117.3984"/></g><!--MD5=[da00ee675d2517893c9aed4ab53b1423]
+class es.ua.dlsi.prog3.p6.reflection.ReflectionException--><g id="elem_es.ua.dlsi.prog3.p6.reflection.ReflectionException"><rect codeLine="19" fill="#F1F1F1" height="42.4883" id="es.ua.dlsi.prog3.p6.reflection.ReflectionException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="1428" y="565.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1431" y="584.0352">ReflectionException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1429" x2="1569" y1="591.9883" y2="591.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1429" x2="1569" y1="599.9883" y2="599.9883"/></g><!--MD5=[db2c8836040fc9f37230a295e259acfc]
+class es.ua.dlsi.prog3.p6.reflection.ERelationship--><g id="elem_es.ua.dlsi.prog3.p6.reflection.ERelationship"><rect codeLine="21" fill="#F1F1F1" height="106.0859" id="es.ua.dlsi.prog3.p6.reflection.ERelationship" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="1176" y="41"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="1243" y="57.6016">«enum»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1218.5" y="73.668">ERelationship</text><line style="stroke:#181818;stroke-width:0.5;" x1="1177" x2="1353" y1="81.6211" y2="81.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1182" y="99.1563">+inheritance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1182" y="115.6445">+association</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1182" y="132.1328">+parameterDependency</text><line style="stroke:#181818;stroke-width:0.5;" x1="1177" x2="1353" y1="139.0859" y2="139.0859"/></g><!--MD5=[56ced39ce4653ceffdda64e2eb576735]
+class es.ua.dlsi.prog3.p6.reflection.Code2Graph--><g id="elem_es.ua.dlsi.prog3.p6.reflection.Code2Graph"><rect codeLine="31" fill="#F1F1F1" height="240.3477" id="es.ua.dlsi.prog3.p6.reflection.Code2Graph" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="610" x="960" y="224"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1221.5" y="242.5352">Code2Graph</text><line style="stroke:#181818;stroke-width:0.5;" x1="961" x2="1569" y1="250.4883" y2="250.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="961" x2="1569" y1="258.4883" y2="258.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="966" y="276.0234">+Code2Graph(Class&lt;?&gt; start)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="374" x="966" y="292.5117">+Code2Graph(String packageName, String className)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="338" x="966" y="309">+createGraph(): Graph&lt;Class&lt;?&gt;,ERelationship&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="598" x="966" y="325.4883">+createGraph(reflectionClassesPackageName: String): Graph&lt;Class&lt;?&gt;,ERelationship&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="966" y="341.9766">-browseClass(Class&lt;?&gt;): Node&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="455" x="966" y="358.4648">-addRelatedClass(Node&lt;Class&lt;?&gt;&gt;,Class&lt;?&gt;,ERelationship): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="966" y="374.9531">-findParentClass(Class&lt;?&gt;): Class&lt;?&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="299" x="966" y="391.4414">-isSamePackageAsStart(Class&lt;?&gt;): boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="392" x="966" y="407.9297">-filterClassesInPackage(Set&lt;Class&lt;?&gt;&gt;): Set&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="349" x="966" y="424.418">-findAssociatedClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="350" x="966" y="440.9063">-findDependantClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="248" x="966" y="457.3945">+&lt;&lt;final&gt; main(args: String[]): void</text></g><!--MD5=[346ba25fda318d5511faf7a1919db073]
+class es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer--><g id="elem_es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer"><rect codeLine="52" fill="#F1F1F1" height="122.5742" id="es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="365" x="597.5" y="525"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="749" y="541.6016">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="100" x="730" y="557.668">IClassAnalyzer</text><line style="stroke:#181818;stroke-width:0.5;" x1="598.5" x2="961.5" y1="565.6211" y2="565.6211"/><line style="stroke:#181818;stroke-width:0.5;" x1="598.5" x2="961.5" y1="573.6211" y2="573.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="603.5" y="591.1563">+findParentClass(Class&lt;?&gt;): Class&lt;?&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="342" x="603.5" y="607.6445">+haveSamePackage(Class&lt;?&gt;,Class&lt;?&gt;): boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="352" x="603.5" y="624.1328">+findAssociatedClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="353" x="603.5" y="640.6211">+findDependantClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text></g><!--MD5=[6fd71f8ddbb3e8efb31f5b579a216e97]
+class es.ua.dlsi.prog3.p6.reflection.IReflectionUtils--><g id="elem_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils"><rect codeLine="46" fill="#F1F1F1" height="106.0859" id="es.ua.dlsi.prog3.p6.reflection.IReflectionUtils" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="395" x="997.5" y="533.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="1164" y="550.1016">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="102" x="1144" y="566.168">IReflectionUtils</text><line style="stroke:#181818;stroke-width:0.5;" x1="998.5" x2="1391.5" y1="574.1211" y2="574.1211"/><line style="stroke:#181818;stroke-width:0.5;" x1="998.5" x2="1391.5" y1="582.1211" y2="582.1211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="1003.5" y="599.6563">+&lt;T&gt; instantiate(Class&lt;?&gt;): T</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="311" x="1003.5" y="616.1445">+findClassInPackage(String,String): Class&lt;?&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="383" x="1003.5" y="632.6328">+isImplementingInterface(Class&lt;?&gt;,Class&lt;?&gt;): boolean</text></g><!--MD5=[0d5dd642c2672001a3e6c91939920e7a]
+class es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory--><g id="elem_es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory"><rect codeLine="59" fill="#F1F1F1" height="75.4648" id="es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="741.5" y="306.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="760" y="325.0352">ClassAnalyzerFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="742.5" x2="923.5" y1="332.9883" y2="332.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="747.5" y="350.5234">-packageName: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="742.5" x2="923.5" y1="357.4766" y2="357.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="747.5" y="375.0117">+create(): IClassAnalyzer</text></g><!--MD5=[46c05dfe24a0851e179497c4631d3ff2]
+class java.lang.Exception--><g id="elem_java.lang.Exception"><rect fill="#F1F1F1" height="42.4883" id="java.lang.Exception" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="1626" y="765"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1629" y="783.5352">Exception</text><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1699" y1="791.4883" y2="791.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1699" y1="799.4883" y2="799.4883"/></g><!--MD5=[a7832e0c2866edccfd06a1b2054ccd1b]
+class java.lang.InstantiationException--><g id="elem_java.lang.InstantiationException"><rect fill="#F1F1F1" height="42.4883" id="java.lang.InstantiationException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="1021" y="765"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1024" y="783.5352">InstantiationException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1022" x2="1180" y1="791.4883" y2="791.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1022" x2="1180" y1="799.4883" y2="799.4883"/></g><!--MD5=[da448db868cc9ba161b954a3e5aaa833]
+class java.lang.IllegalAccessException--><g id="elem_java.lang.IllegalAccessException"><rect fill="#F1F1F1" height="42.4883" id="java.lang.IllegalAccessException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="161" x="1216.5" y="765"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1219.5" y="783.5352">IllegalAccessException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1217.5" x2="1376.5" y1="791.4883" y2="791.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1217.5" x2="1376.5" y1="799.4883" y2="799.4883"/></g><!--MD5=[05b592d3b58a5746c8347b129f478a5c]
+class java.lang.ClassNotFoundException--><g id="elem_java.lang.ClassNotFoundException"><rect fill="#F1F1F1" height="42.4883" id="java.lang.ClassNotFoundException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="1413" y="765"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1416" y="783.5352">ClassNotFoundException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1414" x2="1590" y1="791.4883" y2="791.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1414" x2="1590" y1="799.4883" y2="799.4883"/></g><!--MD5=[f1f765e9aa526b576c0ab890c0977ee8]
+class es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer--><g id="elem_es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer"><rect codeLine="83" fill="#00FFFF" height="108.4414" id="es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="365" x="22.5" y="732"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="157" y="750.5352">ClassAnalyzer</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="386.5" y1="758.4883" y2="758.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="386.5" y1="766.4883" y2="766.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="28.5" y="784.0234">+findParentClass(Class&lt;?&gt;): Class&lt;?&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="342" x="28.5" y="800.5117">+haveSamePackage(Class&lt;?&gt;,Class&lt;?&gt;): boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="352" x="28.5" y="817">+findAssociatedClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="353" x="28.5" y="833.4883">+findDependantClasses(Class&lt;?&gt;): Set&lt;Class&lt;?&gt;&gt;</text></g><!--MD5=[2881f462c18aa393415906e15455d007]
+class es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils--><g id="elem_es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils"><rect codeLine="78" fill="#00FFFF" height="91.9531" id="es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="542" x="423" y="740"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="645" y="758.5352">ReflectionUtils</text><line style="stroke:#181818;stroke-width:0.5;" x1="424" x2="964" y1="766.4883" y2="766.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="424" x2="964" y1="774.4883" y2="774.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="429" y="792.0234">+&lt;T&gt; instantiate(Class&lt;?&gt;): T</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="495" x="429" y="808.5117">+findClassInPackage(packageName: String,className: String): Class&lt;?&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="530" x="429" y="825">+isImplementingInterface(clazz: Class&lt;?&gt;,interfaceClass: Class&lt;?&gt;): boolean</text></g><!--MD5=[a66baaacd03beda9b727566debd5d9a5]
+class ClassNotFoundException--><g id="elem_ClassNotFoundException"><rect fill="#F1F1F1" height="42.4883" id="ClassNotFoundException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="1605" y="565.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1608" y="584.0352">ClassNotFoundException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1606" x2="1782" y1="591.9883" y2="591.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1606" x2="1782" y1="599.9883" y2="599.9883"/></g><!--MD5=[a1140ba98d8d05cffe6aa807548b0961]
+reverse link es.ua.dlsi.prog3.p6.graph.Graph to es.ua.dlsi.prog3.p6.reflection.Code2Graph--><g id="link_es.ua.dlsi.prog3.p6.graph.Graph_es.ua.dlsi.prog3.p6.reflection.Code2Graph"><path codeLine="27" d="M1689.84,127.54 C1640.69,152.47 1569.65,188.5 1499.67,223.98 " fill="none" id="es.ua.dlsi.prog3.p6.graph.Graph-backto-es.ua.dlsi.prog3.p6.reflection.Code2Graph" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1694.53,125.16,1684.6937,125.6575,1690.0694,127.4189,1688.308,132.7946,1694.53,125.16" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="1582" y="190.5684">«bind» Class&lt;?&gt;,ERelationship</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1672.6459" y="146.1756">1</text></g><!--MD5=[abafa7652a92cb7b32c4ea6d900fc670]
+reverse link es.ua.dlsi.prog3.p6.graph.Node to es.ua.dlsi.prog3.p6.reflection.Code2Graph--><g id="link_es.ua.dlsi.prog3.p6.graph.Node_es.ua.dlsi.prog3.p6.reflection.Code2Graph"><path codeLine="28" d="M1940.14,127.76 C1927.19,135.13 1913.26,142.64 1900,149 C1850.51,172.74 1836.99,176.42 1785,194 C1716.05,217.31 1641.19,240.16 1570.32,260.7 " fill="none" id="es.ua.dlsi.prog3.p6.graph.Node-backto-es.ua.dlsi.prog3.p6.reflection.Code2Graph" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1944.49,125.27,1934.6934,126.2831,1940.1541,127.7599,1938.6773,133.2206,1944.49,125.27" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="260" x="1834" y="190.5684">«bind» Class&lt;?&gt;,Node&lt;Class&lt;?&gt;&gt; {map}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1925.4536" y="145.8256">n</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="1578.5306" y="256.1398">visitedClasses</text></g><!--MD5=[a110d41ef2f46f7ab8a2c09e9326173d]
+link es.ua.dlsi.prog3.p6.reflection.Code2Graph to es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer--><g id="link_es.ua.dlsi.prog3.p6.reflection.Code2Graph_es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer"><path codeLine="29" d="M1024.99,464.02 C984.26,484.21 943.43,504.46 907.11,522.47 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.Code2Graph-to-es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="902.25,524.88,912.0898,524.4579,906.7278,522.6553,908.5304,517.2934,902.25,524.88" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="908.6617" y="514.0692">1</text></g><!--MD5=[ace0b7958ce4f8852f0301d13e0e40c1]
+reverse link es.ua.dlsi.prog3.p6.reflection.ERelationship to es.ua.dlsi.prog3.p6.reflection.Code2Graph--><g id="link_es.ua.dlsi.prog3.p6.reflection.ERelationship_es.ua.dlsi.prog3.p6.reflection.Code2Graph"><path codeLine="30" d="M1265,152.37 C1265,173.79 1265,198.98 1265,223.9 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.ERelationship-backto-es.ua.dlsi.prog3.p6.reflection.Code2Graph" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1265,147.29,1261,156.29,1265,152.29,1269,156.29,1265,147.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e9d98411ac9849c9f66c75187e85f738]
+link es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory to es.ua.dlsi.prog3.p6.reflection.IReflectionUtils--><g id="link_es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils"><path codeLine="64" d="M860.78,381.73 C881.41,407.18 911.34,440.57 943,464 C978.08,489.95 1019.58,512.66 1058.67,531.19 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory-to-es.ua.dlsi.prog3.p6.reflection.IReflectionUtils" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1063.42,533.43,1056.9855,525.9736,1058.8975,531.2976,1053.5736,533.2096,1063.42,533.43" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1037.2014" y="522.8744">1</text></g><!--MD5=[6fbcd77fe5e09e0ea737087c4e1e1175]
+link es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory to es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer--><g id="link_es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory_es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer"><path codeLine="65" d="M824.95,381.53 C816.89,418.09 804.31,475.17 794.51,519.65 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory-to-es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="793.39,524.74,799.225,516.8057,794.461,519.8561,791.4107,515.0921,793.39,524.74" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[13b16ac2ea33c7916b63595dcdd79392]
+reverse link java.lang.Exception to es.ua.dlsi.prog3.p6.reflection.ReflectionException--><g id="link_java.lang.Exception_es.ua.dlsi.prog3.p6.reflection.ReflectionException"><path codeLine="68" d="M1645.74,746.82 C1636.35,728.3 1623.67,706.37 1609,689 C1601.25,679.83 1597.03,679.92 1588,672 C1563.81,650.79 1537.19,625.2 1519.43,607.78 " fill="none" id="java.lang.Exception-backto-es.ua.dlsi.prog3.p6.reflection.ReflectionException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1652.06,743.81,1654.42,764.87,1639.44,749.88,1652.06,743.81" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fd6e71e13f0010d2ba7f0f74ccc8c4f7]
+reverse link es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer to es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer--><g id="link_es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer_es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer"><path codeLine="69" d="M577.76,634.97 C521.19,650.2 460.12,668.51 405,689 C372.15,701.21 337.38,716.87 306.21,731.99 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer-backto-es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="576.03,628.19,597.16,629.82,579.63,641.72,576.03,628.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[07f3b91a54b95a85d854f8d32730c577]
+reverse link es.ua.dlsi.prog3.p6.reflection.IReflectionUtils to es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils--><g id="link_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils_es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils"><path codeLine="70" d="M1044.14,646.97 C968.47,676.8 878.31,712.34 808.43,739.89 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.IReflectionUtils-backto-es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1041.87,640.34,1063.04,639.52,1047,653.37,1041.87,640.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac0a0f6c7d913da69a398d098d193dce]
+link es.ua.dlsi.prog3.p6.reflection.IReflectionUtils to java.lang.InstantiationException--><g id="link_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils_java.lang.InstantiationException"><path codeLine="72" d="M1170.18,639.65 C1151.7,678.49 1127.27,729.8 1112.94,759.92 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.IReflectionUtils-to-java.lang.InstantiationException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1110.73,764.57,1118.203,758.1548,1112.8741,760.0531,1110.9759,754.7242,1110.73,764.57" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fc5cc4ba13b9b6e22ccf9aceee2a6dca]
+link es.ua.dlsi.prog3.p6.reflection.IReflectionUtils to java.lang.IllegalAccessException--><g id="link_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils_java.lang.IllegalAccessException"><path codeLine="73" d="M1221.93,639.65 C1241.99,678.49 1268.49,729.8 1284.05,759.92 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.IReflectionUtils-to-java.lang.IllegalAccessException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1286.45,764.57,1285.8646,754.7386,1284.1513,760.1297,1278.7602,758.4164,1286.45,764.57" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[198eea4d68386ac21950ca7110056643]
+link es.ua.dlsi.prog3.p6.reflection.IReflectionUtils to java.lang.ClassNotFoundException--><g id="link_es.ua.dlsi.prog3.p6.reflection.IReflectionUtils_java.lang.ClassNotFoundException"><path codeLine="74" d="M1310.34,639.56 C1338.85,654.17 1368.74,671.01 1395,689 C1426.4,710.51 1458.37,740.46 1479.07,761.16 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.IReflectionUtils-to-java.lang.ClassNotFoundException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1482.81,764.92,1479.3117,755.7134,1479.2888,761.3702,1473.632,761.3473,1482.81,764.92" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[70788dbd658220f9adb863c3faea1e85]
+link es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory to es.ua.dlsi.prog3.p6.reflection.ReflectionException--><g id="link_es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory_es.ua.dlsi.prog3.p6.reflection.ReflectionException"><path codeLine="75" d="M856.27,381.58 C875.87,409.08 906.51,445.13 943,464 C1128.93,560.15 1214.36,450.59 1410,525 C1432.54,533.57 1454.97,548.88 1471.68,561.95 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory-to-es.ua.dlsi.prog3.p6.reflection.ReflectionException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1475.8,565.22,1471.2476,556.4864,1471.8873,562.107,1466.2667,562.7467,1475.8,565.22" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6d42796a5537843163de10f6db9e5535]
+link es.ua.dlsi.prog3.p6.reflection.Code2Graph to ClassNotFoundException--><g id="link_es.ua.dlsi.prog3.p6.reflection.Code2Graph_ClassNotFoundException"><path codeLine="76" d="M1477.3,464.02 C1544.65,501.77 1612.29,539.7 1653.66,562.88 " fill="none" id="es.ua.dlsi.prog3.p6.reflection.Code2Graph-to-ClassNotFoundException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1658.07,565.36,1652.1758,557.4696,1653.7087,562.9148,1648.2635,564.4477,1658.07,565.36" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[de7c6d29f52bf0cd5939b68e7b8046de]
+@startuml p6_reflection
+skinparam classAttributeIconSize 0
+hide circle
+'skinparam genericDisplay old
+
+!function $paramType($T) 
+!$nl = "\n"
+!$space = "  "
+!return $nl + $space + $T + $space + $nl
+!endfunction 
+
+class es.ua.dlsi.prog3.p6.graph.Graph <$paramType("NodeLabelType, EdgeLabelType")> {
+
+}
+
+class es.ua.dlsi.prog3.p6.graph.Node <$paramType(NodeLabelType)> {
+
+}
+
+class es.ua.dlsi.prog3.p6.reflection.ReflectionException {
+}
+enum es.ua.dlsi.prog3.p6.reflection.ERelationship <<enum>> {
++  inheritance
++  association
++  parameterDependency
+}
+
+es.ua.dlsi.prog3.p6.reflection.Code2Graph -u-> "1" es.ua.dlsi.prog3.p6.graph.Graph : <<bind>> Class<?>,ERelationship
+es.ua.dlsi.prog3.p6.reflection.Code2Graph "visitedClasses" -u-> "n" es.ua.dlsi.prog3.p6.graph.Node : <<bind>> Class<?>,Node<Class<?>> {map}
+es.ua.dlsi.prog3.p6.reflection.Code2Graph - -> "1" es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer
+es.ua.dlsi.prog3.p6.reflection.ERelationship <.. es.ua.dlsi.prog3.p6.reflection.Code2Graph
+class es.ua.dlsi.prog3.p6.reflection.Code2Graph {
++ Code2Graph(Class<?> start)
++ Code2Graph(String packageName, String className)
++ createGraph(): Graph<Class<?>,ERelationship> 
++ createGraph(reflectionClassesPackageName: String): Graph<Class<?>,ERelationship> 
+- browseClass(Class<?>): Node<Class<?>> 
+- addRelatedClass(Node<Class<?>>,Class<?>,ERelationship): void 
+- findParentClass(Class<?>): Class<?>
+- isSamePackageAsStart(Class<?>): boolean
+- filterClassesInPackage(Set<Class<?>>): Set<Class<?>>
+- findAssociatedClasses(Class<?>): Set<Class<?>>
+- findDependantClasses(Class<?>): Set<Class<?>>
++ {static} <<final> main(args: String[]): void
+}
+
+interface es.ua.dlsi.prog3.p6.reflection.IReflectionUtils <<interface>> {
++ <T> instantiate(Class<?>): T
++ findClassInPackage(String,String): Class<?> 
++ isImplementingInterface(Class<?>,Class<?>): boolean 
+}
+
+interface es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer  <<interface>> {
++ findParentClass(Class<?>): Class<?>
++ haveSamePackage(Class<?>,Class<?>): boolean
++ findAssociatedClasses(Class<?>): Set<Class<?>>
++ findDependantClasses(Class<?>): Set<Class<?>>
+}
+
+class es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory {
+- packageName: String 
++ create(): IClassAnalyzer
+}
+
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory - -> "1" es.ua.dlsi.prog3.p6.reflection.IReflectionUtils
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory ..> es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer
+
+
+java.lang.Exception <|- - es.ua.dlsi.prog3.p6.reflection.ReflectionException
+es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer <|.. es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils <|.. es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils
+
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.InstantiationException
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.IllegalAccessException
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.ClassNotFoundException
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory ..> es.ua.dlsi.prog3.p6.reflection.ReflectionException
+es.ua.dlsi.prog3.p6.reflection.Code2Graph ..> ClassNotFoundException
+
+class es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils #cyan {
++ <T> instantiate(Class<?>): T
++ findClassInPackage(packageName: String,className: String): Class<?> 
++ isImplementingInterface(clazz: Class<?>,interfaceClass: Class<?>): boolean 
+}
+class es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer  #cyan {
++ findParentClass(Class<?>): Class<?>
++ haveSamePackage(Class<?>,Class<?>): boolean 
++ findAssociatedClasses(Class<?>): Set<Class<?>> 
++ findDependantClasses(Class<?>): Set<Class<?>> 
+}
+
+@enduml
+
+@startuml p6_reflection
+skinparam classAttributeIconSize 0
+hide circle
+
+
+class es.ua.dlsi.prog3.p6.graph.Graph <\n  NodeLabelType, EdgeLabelType  \n> {
+
+}
+
+class es.ua.dlsi.prog3.p6.graph.Node <\n  NodeLabelType  \n> {
+
+}
+
+class es.ua.dlsi.prog3.p6.reflection.ReflectionException {
+}
+enum es.ua.dlsi.prog3.p6.reflection.ERelationship <<enum>> {
++  inheritance
++  association
++  parameterDependency
+}
+
+es.ua.dlsi.prog3.p6.reflection.Code2Graph -u-> "1" es.ua.dlsi.prog3.p6.graph.Graph : <<bind>> Class<?>,ERelationship
+es.ua.dlsi.prog3.p6.reflection.Code2Graph "visitedClasses" -u-> "n" es.ua.dlsi.prog3.p6.graph.Node : <<bind>> Class<?>,Node<Class<?>> {map}
+es.ua.dlsi.prog3.p6.reflection.Code2Graph - -> "1" es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer
+es.ua.dlsi.prog3.p6.reflection.ERelationship <.. es.ua.dlsi.prog3.p6.reflection.Code2Graph
+class es.ua.dlsi.prog3.p6.reflection.Code2Graph {
++ Code2Graph(Class<?> start)
++ Code2Graph(String packageName, String className)
++ createGraph(): Graph<Class<?>,ERelationship> 
++ createGraph(reflectionClassesPackageName: String): Graph<Class<?>,ERelationship> 
+- browseClass(Class<?>): Node<Class<?>> 
+- addRelatedClass(Node<Class<?>>,Class<?>,ERelationship): void 
+- findParentClass(Class<?>): Class<?>
+- isSamePackageAsStart(Class<?>): boolean
+- filterClassesInPackage(Set<Class<?>>): Set<Class<?>>
+- findAssociatedClasses(Class<?>): Set<Class<?>>
+- findDependantClasses(Class<?>): Set<Class<?>>
++ {static} <<final> main(args: String[]): void
+}
+
+interface es.ua.dlsi.prog3.p6.reflection.IReflectionUtils <<interface>> {
++ <T> instantiate(Class<?>): T
++ findClassInPackage(String,String): Class<?> 
++ isImplementingInterface(Class<?>,Class<?>): boolean 
+}
+
+interface es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer  <<interface>> {
++ findParentClass(Class<?>): Class<?>
++ haveSamePackage(Class<?>,Class<?>): boolean
++ findAssociatedClasses(Class<?>): Set<Class<?>>
++ findDependantClasses(Class<?>): Set<Class<?>>
+}
+
+class es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory {
+- packageName: String 
++ create(): IClassAnalyzer
+}
+
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory - -> "1" es.ua.dlsi.prog3.p6.reflection.IReflectionUtils
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory ..> es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer
+
+
+java.lang.Exception <|- - es.ua.dlsi.prog3.p6.reflection.ReflectionException
+es.ua.dlsi.prog3.p6.reflection.IClassAnalyzer <|.. es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils <|.. es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils
+
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.InstantiationException
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.IllegalAccessException
+es.ua.dlsi.prog3.p6.reflection.IReflectionUtils ..> java.lang.ClassNotFoundException
+es.ua.dlsi.prog3.p6.reflection.ClassAnalyzerFactory ..> es.ua.dlsi.prog3.p6.reflection.ReflectionException
+es.ua.dlsi.prog3.p6.reflection.Code2Graph ..> ClassNotFoundException
+
+class es.ua.dlsi.prog3.p6.reflection.impl.ReflectionUtils #cyan {
++ <T> instantiate(Class<?>): T
++ findClassInPackage(packageName: String,className: String): Class<?> 
++ isImplementingInterface(clazz: Class<?>,interfaceClass: Class<?>): boolean 
+}
+class es.ua.dlsi.prog3.p6.reflection.impl.ClassAnalyzer  #cyan {
++ findParentClass(Class<?>): Class<?>
++ haveSamePackage(Class<?>,Class<?>): boolean 
++ findAssociatedClasses(Class<?>): Set<Class<?>> 
++ findDependantClasses(Class<?>): Set<Class<?>> 
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

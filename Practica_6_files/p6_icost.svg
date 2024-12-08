@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="381px" preserveAspectRatio="none" style="width:664px;height:381px;background:#FFFFFF;" version="1.1" viewBox="0 0 664 381" width="664px" zoomAndPan="magnify"><defs/><g><!--MD5=[212ae7d3f65ff18c211c6142b573cbbf]
+cluster es.ua.dlsi.prog3.p6.algorithms--><g id="cluster_es.ua.dlsi.prog3.p6.algorithms"><path d="M8.5,6 L223.5,6 A3.75,3.75 0 0 1 226,8.5 L233,28.4883 L623.5,28.4883 A2.5,2.5 0 0 1 626,30.9883 L626,371.5 A2.5,2.5 0 0 1 623.5,374 L8.5,374 A2.5,2.5 0 0 1 6,371.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="233" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="214" x="10" y="21.5352">es.ua.dlsi.prog3.p6.algorithms</text></g><!--MD5=[4c9a3662d883d9f8d4a07ee53fc59e31]
+class ICostOperators--><g id="elem_ICostOperators"><rect codeLine="12" fill="#F1F1F1" height="111.8633" id="ICostOperators" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="144.5" y="246"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="178" y="265.4902">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="104" x="157" y="281.5566">ICostOperators</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="26" x="278.5" y="243"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="289.5" y="255.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="8" x="287.5" y="269.7344">T</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="289.5" y="283.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="145.5" x2="300.5" y1="292.3984" y2="292.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="145.5" x2="300.5" y1="300.3984" y2="300.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="150.5" y="317.9336">+add(T, T): T</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="150.5" y="334.4219">+zero(): T</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="150.5" y="350.9102">+maximumValue(): T</text></g><!--MD5=[c8860a7c916dc983410fb07a2b60ecab]
+class DijkstraShortestPath--><g id="elem_DijkstraShortestPath"><rect codeLine="18" fill="#F1F1F1" height="128.3516" id="DijkstraShortestPath" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="587" x="22.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="25.5" y="69.4902">DijkstraShortestPath</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="440" x="172.5" y="38"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="390.5" y="50.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="422" x="181.5" y="64.7344">NodeLabelType, EdgeLabelType extends Comparable&lt;EdgeLabelType&gt;</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="390.5" y="78.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="608.5" y1="87.3984" y2="87.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="608.5" y1="95.3984" y2="95.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="28.5" y="112.9336">+DijkstraShortestPath(graph: Graph)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="28.5" y="129.4219">+compute(fromNode: Node): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="332" x="28.5" y="145.9102">+getComputedDistances(): Map&lt;Node, Integer&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="278" x="28.5" y="162.3984">-processNeighbours(source: Node): void</text></g><!--MD5=[ea16a8f61f4e20a3a12808aa4bb145f0]
+link DijkstraShortestPath to ICostOperators--><g id="link_DijkstraShortestPath_ICostOperators"><path codeLine="25" d="M284.46,169.17 C279.58,179.13 274.62,189.33 270,199 C263.51,212.59 256.65,227.27 250.25,241.15 " fill="none" id="DijkstraShortestPath-to-ICostOperators" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="248.09,245.82,255.505,239.3379,250.1935,241.284,248.2474,235.9724,248.09,245.82" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="385" x="271" y="212.5684">«bind» EdgeLabelType extends Comparable&lt;EdgeLabelType&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="178.2054" y="190.0228">-costOperators</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="242.7922" y="235.258">1</text></g><!--MD5=[d7ecc4387ec73edc035830a87b35a1e1]
+@startuml p6_icost
+skinparam classAttributeIconSize 0
+hide circle
+'skinparam genericDisplay old
+
+!function $paramType($T) 
+!$nl = "\n"
+!$space = "  "
+!return $nl + $space + $T + $space + $nl
+!endfunction 
+ 
+package es.ua.dlsi.prog3.p6.algorithms {
+    interface ICostOperators<$paramType(T)> <<interface>> {
+        +add(T, T): T
+        +zero(): T
+        +maximumValue(): T
+    }
+
+   class DijkstraShortestPath<$paramType("NodeLabelType, EdgeLabelType extends Comparable<EdgeLabelType>")> {
+        +DijkstraShortestPath(graph: Graph)
+        +compute(fromNode: Node): void
+        +getComputedDistances(): Map<Node, Integer>
+        -processNeighbours(source: Node): void
+    }
+    
+    DijkstraShortestPath "-costOperators" - -> "1" ICostOperators: <<bind>> EdgeLabelType extends Comparable<EdgeLabelType>
+}
+
+
+
+@enduml
+
+@startuml p6_icost
+skinparam classAttributeIconSize 0
+hide circle
+
+ 
+package es.ua.dlsi.prog3.p6.algorithms {
+    interface ICostOperators<\n  T  \n> <<interface>> {
+        +add(T, T): T
+        +zero(): T
+        +maximumValue(): T
+    }
+
+   class DijkstraShortestPath<\n  NodeLabelType, EdgeLabelType extends Comparable<EdgeLabelType>  \n> {
+        +DijkstraShortestPath(graph: Graph)
+        +compute(fromNode: Node): void
+        +getComputedDistances(): Map<Node, Integer>
+        -processNeighbours(source: Node): void
+    }
+    
+    DijkstraShortestPath "-costOperators" - -> "1" ICostOperators: <<bind>> EdgeLabelType extends Comparable<EdgeLabelType>
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

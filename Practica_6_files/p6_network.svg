@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="650px" preserveAspectRatio="none" style="width:1269px;height:650px;background:#FFFFFF;" version="1.1" viewBox="0 0 1269 650" width="1269px" zoomAndPan="magnify"><defs/><g><!--MD5=[468c628577d61d66a0bda2743704dfd4]
+cluster es.ua.dlsi.prog3.p6.graph--><g id="cluster_es.ua.dlsi.prog3.p6.graph"><path d="M976.5,490.5 L1153.5,490.5 A3.75,3.75 0 0 1 1156,493 L1163,512.9883 L1259.5,512.9883 A2.5,2.5 0 0 1 1262,515.4883 L1262,601 A2.5,2.5 0 0 1 1259.5,603.5 L976.5,603.5 A2.5,2.5 0 0 1 974,601 L974,493 A2.5,2.5 0 0 1 976.5,490.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="974" x2="1163" y1="512.9883" y2="512.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="978" y="506.0352">es.ua.dlsi.prog3.p6.graph</text></g><!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang--><g id="cluster_java.lang"><path d="M266.5,6 L330.5,6 A3.75,3.75 0 0 1 333,8.5 L340,28.4883 L640.5,28.4883 A2.5,2.5 0 0 1 643,30.9883 L643,133.5 A2.5,2.5 0 0 1 640.5,136 L266.5,136 A2.5,2.5 0 0 1 264,133.5 L264,8.5 A2.5,2.5 0 0 1 266.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="264" x2="340" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="268" y="21.5352">java.lang</text></g><!--MD5=[1540ce665c7baa48a3de79846f282ef0]
+cluster es.ua.dlsi.prog3.p6.network--><g id="cluster_es.ua.dlsi.prog3.p6.network"><path d="M8.5,185 L203.5,185 A3.75,3.75 0 0 1 206,187.5 L213,207.4883 L765.5,207.4883 A2.5,2.5 0 0 1 768,209.9883 L768,640.5 A2.5,2.5 0 0 1 765.5,643 L8.5,643 A2.5,2.5 0 0 1 6,640.5 L6,187.5 A2.5,2.5 0 0 1 8.5,185 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="213" y1="207.4883" y2="207.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="194" x="10" y="200.5352">es.ua.dlsi.prog3.p6.network</text></g><!--MD5=[762522d4a69e9939827a70a8bbd0c945]
+class es.ua.dlsi.prog3.p6.graph.Graph--><g id="elem_es.ua.dlsi.prog3.p6.graph.Graph"><rect codeLine="11" fill="#F1F1F1" height="62.3984" id="es.ua.dlsi.prog3.p6.graph.Graph" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="256" x="990" y="525.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="993" y="553.9902">Graph</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="206" x="1043" y="522.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1144" y="535.1016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="188" x="1052" y="549.2344">NodeLabelType, EdgeLabelType</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1144" y="563.3672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="991" x2="1245" y1="571.8984" y2="571.8984"/><line style="stroke:#181818;stroke-width:0.5;" x1="991" x2="1245" y1="579.8984" y2="579.8984"/></g><!--MD5=[008d82c49f85b4d489e041917c99c847]
+class java.lang.Comparable--><g id="elem_java.lang.Comparable"><rect codeLine="16" fill="#F1F1F1" height="78.8867" id="java.lang.Comparable" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="146" x="280" y="41"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="308" y="60.4902">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="297" y="76.5566">Comparable</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="26" x="403" y="38"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="414" y="50.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="8" x="412" y="64.7344">T</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="414" y="78.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="425" y1="87.3984" y2="87.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="425" y1="95.3984" y2="95.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="286" y="112.9336">+compareTo(T): int</text></g><!--MD5=[58b9a1998a5b60c7da72e281cabe28d0]
+class java.lang.FileNotFoundException--><g id="elem_java.lang.FileNotFoundException"><rect fill="#F1F1F1" height="42.4883" id="java.lang.FileNotFoundException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="461" y="59.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="464" y="78.0352">FileNotFoundException</text><line style="stroke:#181818;stroke-width:0.5;" x1="462" x2="626" y1="85.9883" y2="85.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="462" x2="626" y1="93.9883" y2="93.9883"/></g><!--MD5=[7ee281d2ed636e444125c5b634f38e22]
+class es.ua.dlsi.prog3.p6.network.Router--><g id="elem_es.ua.dlsi.prog3.p6.network.Router"><rect codeLine="20" fill="#F1F1F1" height="42.4883" id="es.ua.dlsi.prog3.p6.network.Router" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="22" y="535.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="25" y="554.0352">Router</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="73" y1="561.9883" y2="561.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="73" y1="569.9883" y2="569.9883"/></g><!--MD5=[b8a2d469b4a75c3a517ce92319488f3a]
+class es.ua.dlsi.prog3.p6.network.Device--><g id="elem_es.ua.dlsi.prog3.p6.network.Device"><rect codeLine="22" fill="#F1F1F1" height="188.5273" id="es.ua.dlsi.prog3.p6.network.Device" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186" x="38" y="220"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="101.5" y="236.6016">«abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="44" x="109" y="252.668">Device</text><line style="stroke:#181818;stroke-width:0.5;" x1="39" x2="223" y1="260.6211" y2="260.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="44" y="278.1563">-name: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="44" y="294.6445">-address: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="39" x2="223" y1="301.5977" y2="301.5977"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="44" y="319.1328">+getName(): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="44" y="335.6211">+getAddress(): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="44" y="352.1094">+hashCode(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="44" y="368.5977">+equals(Object): boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="44" y="385.0859">+toString(): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="44" y="401.5742">+compareTo(Device): int</text></g><!--MD5=[c9967abdf9951550d86b39f04aaa1200]
+class es.ua.dlsi.prog3.p6.network.Network--><g id="elem_es.ua.dlsi.prog3.p6.network.Network"><rect codeLine="32" fill="#F1F1F1" height="141.418" id="es.ua.dlsi.prog3.p6.network.Network" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="532" x="220" y="486"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="457.5" y="504.5352">Network</text><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="751" y1="512.4883" y2="512.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="751" y1="520.4883" y2="520.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="226" y="538.0234">+addDevice(Device): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="226" y="554.5117">-getNode(Device): Node</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="284" x="226" y="571">+addLatency(Device,Device,Double):  void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="226" y="587.4883">+printNetwork(File): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="329" x="226" y="603.9766">+printLatencyMap(List&lt;? extends Device&gt;): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="520" x="226" y="620.4648">+computeLatencyMap(List&lt;? extends Device&gt; devices): SortedSet&lt;Latency&gt;</text></g><!--MD5=[e45d4fd722a1b0c335539969a5e3e877]
+class es.ua.dlsi.prog3.p6.network.Computer--><g id="elem_es.ua.dlsi.prog3.p6.network.Computer"><rect codeLine="41" fill="#F1F1F1" height="42.4883" id="es.ua.dlsi.prog3.p6.network.Computer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="109.5" y="535.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="112.5" y="554.0352">Computer</text><line style="stroke:#181818;stroke-width:0.5;" x1="110.5" x2="183.5" y1="561.9883" y2="561.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="110.5" x2="183.5" y1="569.9883" y2="569.9883"/></g><!--MD5=[8ee46ca891b361f3994c53dc584eddea]
+class es.ua.dlsi.prog3.p6.network.Network.Latency--><g id="elem_es.ua.dlsi.prog3.p6.network.Network.Latency"><rect codeLine="44" fill="#F1F1F1" height="172.0391" id="es.ua.dlsi.prog3.p6.network.Network.Latency" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="188" x="303" y="228.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="376" y="245.1016">«static»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="341" y="261.168">Network.Latency</text><line style="stroke:#181818;stroke-width:0.5;" x1="304" x2="490" y1="269.1211" y2="269.1211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="309" y="286.6563">-time: double</text><line style="stroke:#181818;stroke-width:0.5;" x1="304" x2="490" y1="293.6094" y2="293.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="309" y="311.1445">+getSource(): Device</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="309" y="327.6328">+getTarget(): Device</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="309" y="344.1211">+getTime(): double</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="309" y="360.6094">+equals(Object): boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="309" y="377.0977">+hashCode()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="309" y="393.5859">+compareTo(Latency): int</text></g><!--MD5=[922e03a971fb884915fa0140341f8244]
+link es.ua.dlsi.prog3.p6.network.Device to es.ua.dlsi.prog3.p6.network.Network--><g id="link_es.ua.dlsi.prog3.p6.network.Device_es.ua.dlsi.prog3.p6.network.Network"><path codeLine="53" d="M235.31,386.02 C278.25,415.05 373.1102,479.1768 373.1102,479.1768 " fill="none" id="es.ua.dlsi.prog3.p6.network.Device-es.ua.dlsi.prog3.p6.network.Network" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="383.05,485.9,380.3212,479.2252,373.1102,479.1768,375.8391,485.8517,383.05,485.9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="224.27,378.56,229.4838,386.9156,228.4116,381.3613,233.9659,380.2891,224.27,378.56" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="228.4116" x2="235.04" y1="381.3613" y2="385.84"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="330" y="452.5684">{map&lt;Device, Node&gt;}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="232.0212" y="380.6667">n</text></g><!--MD5=[2e64765500afef3ca8f231782ba49d5e]
+reverse link es.ua.dlsi.prog3.p6.network.Device to es.ua.dlsi.prog3.p6.network.Router--><g id="link_es.ua.dlsi.prog3.p6.network.Device_es.ua.dlsi.prog3.p6.network.Router"><path codeLine="55" d="M92,428.26 C77.88,469.11 63.36,511.09 55.04,535.15 " fill="none" id="es.ua.dlsi.prog3.p6.network.Device-backto-es.ua.dlsi.prog3.p6.network.Router" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="85.4,425.94,98.55,409.32,98.63,430.51,85.4,425.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[02bfcdf88e00342b1f597308d41f1f4d]
+reverse link es.ua.dlsi.prog3.p6.network.Device to es.ua.dlsi.prog3.p6.network.Computer--><g id="link_es.ua.dlsi.prog3.p6.network.Device_es.ua.dlsi.prog3.p6.network.Computer"><path codeLine="56" d="M138.59,429.36 C141.29,469.87 144.05,511.3 145.64,535.15 " fill="none" id="es.ua.dlsi.prog3.p6.network.Device-backto-es.ua.dlsi.prog3.p6.network.Computer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="131.6,429.74,137.25,409.32,145.57,428.81,131.6,429.74" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4f5817d80198be1e234626e729bb76e9]
+reverse link java.lang.FileNotFoundException to es.ua.dlsi.prog3.p6.network.Network--><g id="link_java.lang.FileNotFoundException_es.ua.dlsi.prog3.p6.network.Network"><path codeLine="58" d="M541.71,106.94 C536.66,162.08 523.81,296.69 509,409 C505.69,434.14 501.52,461.62 497.64,485.93 " fill="none" id="java.lang.FileNotFoundException-backto-es.ua.dlsi.prog3.p6.network.Network" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="542.18,101.85,537.3727,110.4459,541.7222,106.829,545.3391,111.1785,542.18,101.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88e837ec13038639fba2e75153c7ef90]
+link es.ua.dlsi.prog3.p6.network.Network to es.ua.dlsi.prog3.p6.graph.Graph--><g id="link_es.ua.dlsi.prog3.p6.network.Network_es.ua.dlsi.prog3.p6.graph.Graph"><path codeLine="60" d="M752.19,556.5 C832.42,556.5 917.03,556.5 984.65,556.5 " fill="none" id="es.ua.dlsi.prog3.p6.network.Network-to-es.ua.dlsi.prog3.p6.graph.Graph" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="989.9,556.5,980.9,552.5,984.9,556.5,980.9,560.5,989.9,556.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="201" x="770.5" y="550.0684">«bind» Device, Network.Latency</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="973.8502" y="553.6087">1</text></g><!--MD5=[d7b4a5843945a42db053c63358b97c7c]
+reverse link java.lang.Comparable to es.ua.dlsi.prog3.p6.network.Device--><g id="link_java.lang.Comparable_es.ua.dlsi.prog3.p6.network.Device"><path codeLine="62" d="M284.5,133.3 C277.39,139.4 270.43,145.69 264,152 C242.87,172.73 221.71,196.63 202.69,219.58 " fill="none" id="java.lang.Comparable-backto-es.ua.dlsi.prog3.p6.network.Device" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="280.27,127.72,300.14,120.36,289.19,138.51,280.27,127.72" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="265" y="165.5684">«bind» Device</text></g><!--MD5=[ddae85c139706f95acf1d65651dfcd99]
+reverse link java.lang.Comparable to es.ua.dlsi.prog3.p6.network.Network.Latency--><g id="link_java.lang.Comparable_es.ua.dlsi.prog3.p6.network.Network.Latency"><path codeLine="63" d="M360.38,140.19 C361.78,149.84 363.34,159.71 365,169 C368.44,188.22 372.66,208.77 376.89,228.15 " fill="none" id="java.lang.Comparable-backto-es.ua.dlsi.prog3.p6.network.Network.Latency" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="353.44,141.14,357.64,120.37,367.31,139.23,353.44,141.14" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="366" y="165.5684">«bind» Network.Latency</text></g><!--MD5=[7661503055061df869ac98f4d62ee628]
+reverse link es.ua.dlsi.prog3.p6.network.Device to es.ua.dlsi.prog3.p6.network.Network.Latency--><g id="link_es.ua.dlsi.prog3.p6.network.Device_es.ua.dlsi.prog3.p6.network.Network.Latency"><path codeLine="65" d="M229.14,314.5 C253.16,314.5 278.82,314.5 302.67,314.5 " fill="none" id="es.ua.dlsi.prog3.p6.network.Device-backto-es.ua.dlsi.prog3.p6.network.Network.Latency" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="224.03,314.5,233.03,318.5,229.03,314.5,233.03,310.5,224.03,314.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="242.5" y="308.0684">source</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="232.0653" y="311.4797">1</text></g><!--MD5=[7661503055061df869ac98f4d62ee628]
+reverse link es.ua.dlsi.prog3.p6.network.Device to es.ua.dlsi.prog3.p6.network.Network.Latency--><g id="link_es.ua.dlsi.prog3.p6.network.Device_es.ua.dlsi.prog3.p6.network.Network.Latency"><path codeLine="66" d="M229.24,332.95 C234.22,333.55 239.16,334.08 244,334.5 C263.08,336.18 283.44,335.35 302.87,333.3 " fill="none" id="es.ua.dlsi.prog3.p6.network.Device-backto-es.ua.dlsi.prog3.p6.network.Network.Latency-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="224.25,332.32,232.6753,337.4204,229.2103,332.949,233.6817,329.4839,224.25,332.32" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="245" y="331.0684">target</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="231.9996" y="330.7419">1</text></g><!--MD5=[65a586dcceb235f7f2e55b266d2d1ac1]
+@startuml "p6_network"
+skinparam classAttributeIconSize 0
+hide circle
+'skinparam genericDisplay old
+
+!function $paramType($T) 
+!$nl = "\n"
+!$space = "  "
+!return $nl + $space + $T + $space + $nl
+!endfunction 
+
+class es.ua.dlsi.prog3.p6.graph.Graph<$paramType(NodeLabelType+", "+EdgeLabelType)> {
+
+}
+
+
+class java.lang.Comparable<$paramType(T)> <<interface>> {
+    +compareTo(T): int
+}
+
+class es.ua.dlsi.prog3.p6.network.Router {
+}
+abstract class es.ua.dlsi.prog3.p6.network.Device <<abstract>> {
+- name: String
+- address: String
++ getName(): String
++ getAddress(): String
++ hashCode(): int
++ equals(Object): boolean
++ toString(): String
++ compareTo(Device): int
+}
+class es.ua.dlsi.prog3.p6.network.Network {
++ addDevice(Device): void
+- getNode(Device): Node
++ addLatency(Device,Device,Double):  void
++ printNetwork(File): void
++ printLatencyMap(List<? extends Device>): void
++ computeLatencyMap(List<? extends Device> devices): SortedSet<Latency>
+}
+
+class es.ua.dlsi.prog3.p6.network.Computer {
+}
+
+class es.ua.dlsi.prog3.p6.network.Network.Latency <<static>> {
+    -time: double
+    +getSource(): Device
+    +getTarget(): Device
+    +getTime(): double
+    +equals(Object): boolean
+    +hashCode()
+    +compareTo(Latency): int
+}
+es.ua.dlsi.prog3.p6.network.Device "n" <- -o es.ua.dlsi.prog3.p6.network.Network : {map<Device, Node>}
+
+es.ua.dlsi.prog3.p6.network.Device <|- - es.ua.dlsi.prog3.p6.network.Router
+es.ua.dlsi.prog3.p6.network.Device <|- - es.ua.dlsi.prog3.p6.network.Computer
+
+java.lang.FileNotFoundException <.. es.ua.dlsi.prog3.p6.network.Network
+
+es.ua.dlsi.prog3.p6.network.Network -> "1" es.ua.dlsi.prog3.p6.graph.Graph : <<bind>> Device, Network.Latency
+
+java.lang.Comparable <|.. es.ua.dlsi.prog3.p6.network.Device: <<bind>> Device
+java.lang.Comparable <|.. es.ua.dlsi.prog3.p6.network.Network.Latency: <<bind>> Network.Latency
+
+es.ua.dlsi.prog3.p6.network.Device "1" <- es.ua.dlsi.prog3.p6.network.Network.Latency: source
+es.ua.dlsi.prog3.p6.network.Device "1" <- es.ua.dlsi.prog3.p6.network.Network.Latency: target
+
+@enduml
+
+@startuml "p6_network"
+skinparam classAttributeIconSize 0
+hide circle
+
+
+class es.ua.dlsi.prog3.p6.graph.Graph<\n  NodeLabelType, EdgeLabelType  \n> {
+
+}
+
+
+class java.lang.Comparable<\n  T  \n> <<interface>> {
+    +compareTo(T): int
+}
+
+class es.ua.dlsi.prog3.p6.network.Router {
+}
+abstract class es.ua.dlsi.prog3.p6.network.Device <<abstract>> {
+- name: String
+- address: String
++ getName(): String
++ getAddress(): String
++ hashCode(): int
++ equals(Object): boolean
++ toString(): String
++ compareTo(Device): int
+}
+class es.ua.dlsi.prog3.p6.network.Network {
++ addDevice(Device): void
+- getNode(Device): Node
++ addLatency(Device,Device,Double):  void
++ printNetwork(File): void
++ printLatencyMap(List<? extends Device>): void
++ computeLatencyMap(List<? extends Device> devices): SortedSet<Latency>
+}
+
+class es.ua.dlsi.prog3.p6.network.Computer {
+}
+
+class es.ua.dlsi.prog3.p6.network.Network.Latency <<static>> {
+    -time: double
+    +getSource(): Device
+    +getTarget(): Device
+    +getTime(): double
+    +equals(Object): boolean
+    +hashCode()
+    +compareTo(Latency): int
+}
+es.ua.dlsi.prog3.p6.network.Device "n" <- -o es.ua.dlsi.prog3.p6.network.Network : {map<Device, Node>}
+
+es.ua.dlsi.prog3.p6.network.Device <|- - es.ua.dlsi.prog3.p6.network.Router
+es.ua.dlsi.prog3.p6.network.Device <|- - es.ua.dlsi.prog3.p6.network.Computer
+
+java.lang.FileNotFoundException <.. es.ua.dlsi.prog3.p6.network.Network
+
+es.ua.dlsi.prog3.p6.network.Network -> "1" es.ua.dlsi.prog3.p6.graph.Graph : <<bind>> Device, Network.Latency
+
+java.lang.Comparable <|.. es.ua.dlsi.prog3.p6.network.Device: <<bind>> Device
+java.lang.Comparable <|.. es.ua.dlsi.prog3.p6.network.Network.Latency: <<bind>> Network.Latency
+
+es.ua.dlsi.prog3.p6.network.Device "1" <- es.ua.dlsi.prog3.p6.network.Network.Latency: source
+es.ua.dlsi.prog3.p6.network.Device "1" <- es.ua.dlsi.prog3.p6.network.Network.Latency: target
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0079)https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES" xml:lang="es-ES"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="pandoc">
+  <title>Practica_6</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  { color: #cccccc; background-color: #303030; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ffcfaf; } /* Alert */
+code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #dca3a3; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #f0dfaf; } /* ControlFlow */
+code span.ch { color: #dca3a3; } /* Char */
+code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code span.co { color: #7f9f7f; } /* Comment */
+code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code span.do { color: #7f9f7f; } /* Documentation */
+code span.dt { color: #dfdfbf; } /* DataType */
+code span.dv { color: #dcdccc; } /* DecVal */
+code span.er { color: #c3bf9f; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #c0bed1; } /* Float */
+code span.fu { color: #efef8f; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+code span.kw { color: #f0dfaf; } /* Keyword */
+code span.op { color: #f0efd0; } /* Operator */
+code span.ot { color: #efef8f; } /* Other */
+code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code span.sc { color: #dca3a3; } /* SpecialChar */
+code span.ss { color: #cc9393; } /* SpecialString */
+code span.st { color: #cc9393; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #cc9393; } /* VerbatimString */
+code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+  </style>
+
+<!-- Begin PROG3 Header -->
+<!--
+	Design: Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lte IE 8]><script src="../../../theme/readonly/assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="./Practica_6_files/main.css">
+  <!--[if lte IE 8]><link rel="stylesheet" href="../../../theme/readonly/assets/css/ie8.css" /><![endif]-->
+
+
+  <link rel="stylesheet" href="./Practica_6_files/style.css">
+<!-- End PROG3 Header -->
+
+</head>
+<body>
+
+<!-- PROG3 Body Header -->
+<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="./Practica_6_files/avatar.jpg" alt=""></span>
+					<h1 id="logo"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Programación 3</a></h1>
+					<p></p>
+				</header>
+				<nav id="nav">
+					<ul>
+
+						<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/index.html" class="active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Inicio</a></li>
+						<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p1/Practica_1.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 1</a> Introducción a la POO</li>
+	    	        	<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p2/Practica_2.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 2</a>Relaciones y excepciones</li>
+							<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p3/Practica_3.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 3</a>Herencia de implementación</li>
+                		<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p4/Practica_4.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 4</a>Polimorfismo y herencia</li>
+                		<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p5/Practica_5.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 5</a>Herencia de interfaz</li>
+                		<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Práctica 6</a>Genericidad y reflexión</li>
+					</ul>
+
+				</nav>
+
+				<footer>
+<!--
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+-->
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+                                                        <!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h2>Programación 3</h2>
+                                                                                <p>Universidad de Alicante,
+										2024–2025</p>
+
+									</header>
+								</div>
+							</section>
+
+<!-- End PROG3 Body Header -->
+
+<section id="body-section" class="level1 container" style="text-align:left;">
+
+<div id="TOC">
+<ul>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#pr%C3%A1ctica-6" id="toc-práctica-6">Práctica 6</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#sixth-programming-assignment-generics-reflection" id="toc-sixth-programming-assignment-generics-reflection">Genericidad y
+reflexión</a>
+<ul>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#modelo" id="toc-modelo">Modelo</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#algoritmos" id="toc-algoritmos">Algoritmos</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#aplicaci%C3%B3n-de-la-librer%C3%ADa-mapa-de-red" id="toc-aplicación-de-la-librería-mapa-de-red">Aplicación de la
+librería: mapa de red</a></li>
+</ul></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#tareas-a-realizar" id="toc-tareas-a-realizar">Tareas a
+realizar</a>
+<ul>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#introducci%C3%B3n-de-genericidad" id="toc-introducción-de-genericidad">Introducción de
+genericidad</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#uso-de-la-reflexi%C3%B3n-en-java" id="toc-uso-de-la-reflexión-en-java">Uso de la reflexión en
+Java</a></li>
+</ul></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#documentation" id="toc-documentation">Documentación</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#requisitos-m%C3%ADnimos-para-evaluar-la-pr%C3%A1ctica" id="toc-requisitos-mínimos-para-evaluar-la-práctica">Requisitos mínimos
+para evaluar la práctica</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#entrega-de-la-pr%C3%A1ctica" id="toc-entrega-de-la-práctica">Entrega de la práctica</a></li>
+<li><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#evaluaci%C3%B3n" id="toc-evaluación">Evaluación&nbsp;</a></li>
+</ul>
+</div>
+
+
+<section id="práctica-6" class="level2 pagetitle box">
+<h2 class="pagetitle box">Práctica 6</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Peso relativo de está práctica en la nota
+de prácticas: 15%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sixth-programming-assignment-generics-reflection" class="level2">
+<h2>Genericidad y reflexión</h2>
+<p>En esta práctica se trabajará la genericidad en Java a través de las
+actividades que se describen a continuación. También haremos uso de
+algunos mecamismos de reflexión de Java.</p>
+<p><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6_files/proyecto_eclipse_grafo_generics.tgz">En
+este enlace</a> se proporciona un proyecto Eclipse con la implementación
+de una clase grafo (<code>Graph</code>), detallada en el UML adjunto,
+que sólo es capaz de contener cadenas tanto en los nodos como en las
+aristas. Se incluyen también una serie de algoritmos que usan el grafo
+cuyas referencias al grafo se deberán actualizar debidamente. El
+proyecto contiene una lista de pruebas unitarias adecuadas para
+comprobar el funcionamiento de cada clase. Actualmente el proyecto tiene
+errores de compilación a falta de que realices las tareas que indicamos
+en este enunciado.</p>
+<p>(Si necesitas recordar qué es un grafo, <a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6_files/mini-introduccion-a-grafos.svg">aquí tienes una
+mini-introducción</a>)</p>
+<section id="qué-tengo-que-hacer" class="level4">
+<h4>¿Qué tengo que hacer?</h4>
+<p>Tu trabajo en esta práctica consiste en pasar un modelo realizado sin
+genericidad a otro más adecuado que sí la use. También se añadirá código
+basado en reflexión de Java para realizar unas operaciones que de otra
+forma no se podrían abordar.</p>
+<p>Una vez hayas entendido la construcción orientada a objetos del
+modelo y los algoritmos que describimos a continuación, debes seguir los
+pasos descritos en <a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#tareas-a-realizar">Tareas a
+realizar</a>.</p>
+</section>
+<section id="modelo" class="level3">
+<h3>Modelo</h3>
+<p><img src="./Practica_6_files/p6_string_graph_model.svg" alt="UML de partida: modelo" width="800"></p>
+<p>Un grafo (<code>Graph</code>) está compuesto por un conjunto de nodos
+(<code>Node</code>) y aristas (<code>Edge</code>). Los nodos son objetos
+que tienen un identificador numérico y contienen algo (en el UML, una
+cadena) y las aristas conectan nodos entre sí, de manera que podemos
+‘recorrer’ los nodos del grafo atravesando aristas. Una arista tiene
+siempre un nodo de partida y otro de llegada (son unidireccionales). Los
+nodos pueden o no tener aristas entrantes y/o salientes. Las aristas
+también tienen un identificador númerico y un contenido (en el UML
+anterior, una cadena).</p>
+<p>La etiqueta <code>{unique}</code> que ves en la relación entre
+<code>Graph</code> y <code>Node</code> o <code>Edge</code> indica que un
+grafo sólo puede contener el mismo nodo o arista una vez. Para eso la
+relación se debe implementar como un conjunto
+(<code>Set&lt;T&gt;</code>) de nodos/aristas. A diferencia de una lista
+(<code>List&lt;T&gt;</code>), un conjunto no pueden contener elementos
+duplicados. Estudia la parte dedicada a los <a href="https://www.dlsi.ua.es/asignaturas/prog3/jcf_facil.html">Set</a>
+en nuestra web, para saber cómo usarlos (son muy parecidos a las
+listas).</p>
+<p>Para poder usar adecuadamente los conjuntos (<code>Set</code>) es
+necesario poder distinguir de manera unívoca los nodos y las aristas.
+Para ello se ha añadido un identificador único a cada uno mediante la
+clase <em>singleton</em> <code>IDGenerator</code> (una clase
+<em>singleton</em> es aquella de la que sólo tenemos una instancia en
+toda la aplicación – puedes ver el código fuente para comprobar cómo
+conseguimos implementar esa restricción). Para unificar la funcionalidad
+de mantener un identificador único así como una etiqueta, tanto
+<code>Node</code> como <code>Edge</code> heredan de la clase abstracta
+<code>GraphObject</code> que implementa la interfaz
+<code>IIdentifiable</code>. En este diseño de partida, todas las
+etiquetas son de tipo cadena.</p>
+<p>Los nodos no saben con qué aristas se relacionan. El grafo sí dispone
+de esa información. En cambio las aristas sí conocen sus nodos origen y
+destino.</p>
+<p>En una aplicación que utilice la librería podemos tener instanciados
+varios grafos. En los métodos de <code>Graph</code> que reciben como
+parámetro un nodo se comprueba que éste pertenece al grafo al que se
+invoca, lanzando <code>NodeNotFoundException</code> en caso de que no
+pertenezca.</p>
+<p>Los nombres y signaturas de cada método mostrado en el UML son
+suficientemente descriptivos como para entender su significado. No los
+describimos con más detalle porque no es necesario para realizar la
+práctica. En cualquier caso, la documentación <em>javadoc</em> incluida
+en el código fuente contiene suficiente información para quien la quiera
+consultar.</p>
+</section>
+<section id="algoritmos" class="level3">
+<h3>Algoritmos</h3>
+<p><img src="./Practica_6_files/p6_string_graph_algorithms.svg" alt="UML de partida: algoritmos" width="1200"></p>
+<p>Se han creado una serie de algoritmos que utilizan el modelo
+anteriormente expuesto. La clase <code>Algorithms</code> centraliza el
+acceso a los distintos algoritmos. Por ello, cada algoritmo está
+definido con visibilidad de paquete. Puedes ver que hay elementos no
+optimizados en esa clase.</p>
+<section id="dotexporter" class="level4">
+<h4>DotExporter</h4>
+<p>Dentro de los algoritmos, la clase <code>DotExporter</code> es capaz
+de exportar el grafo en formato <em>DOT</em> para <a href="https://graphviz.org/">GraphViz</a>. Hay multitud de visores de
+este formato en la web, por ejemplo <a href="https://edotor.net/">éste</a>.</p>
+<p>En <code>DotExporter</code> se usan las clases <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><code>File</code></a>
+como referencia a un fichero en disco, y <a href="https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html"><code>PrintStream</code></a>
+como abstracción que encapsula el comportamiento de escribir distintos
+tipos de datos como <code>char</code>, <code>String</code>,
+<code>int</code>, etc. en archivos.</p>
+<p>Como la exportación es a fichero, para entender mejor el código de
+esta clase puedes consultar esta <a href="https://www.dlsi.ua.es//asignaturas/prog3/java_io.html">introducción
+al sistema de entrada/salida de Java</a>, también accesible desde la
+página principal de la asignatura.</p>
+<p>La clase <code>DFS</code> recorre el grafo a partir de un nodo dado
+usando el <em><a href="https://en.wikipedia.org/wiki/Depth-first_search">algoritmo
+DFS</a></em>, retornando la secuencia de visita de nodos como copia
+profunda para respetar la composición entre <code>Graph</code> y
+<code>Node</code>.</p>
+<p>Finalmente, la clase <code>DijkstraShortestPath</code> realiza el
+cálculo del camino más corto desde un nodo dado al resto de nodos del
+grafo con el método <code>compute</code>,utilizando el <em><a href="https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra">algoritmo de
+Dijkstra</a></em>. Luego podemos invocar a
+<code>getComputedDistances</code> pasándole como parámetro ese nodo.</p>
+<p><code>DijkstraShortestPath</code> se apoya en la clase interna
+<code>DijkstraShortestPath.Cost</code> para poder comparar pesos en el
+cálculos de las distancias entre nodos. El problema que tenemos es que
+esos pesos están almacenados en las aristas con un tipo de dato cadena.
+En la implementación que proporcionamos, en el método
+<strong><code>DijkstraShortestPath.processNeighbours()</code>, líneas
+157-158,</strong> se realiza una conversión de tipo cadena a entero para
+realizar los cálculos, lo que no es lo más recomendable y más adelante
+solucionaremos:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb1-1"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> edgeDistance <span class="op">=</span> <span class="bu">Integer</span><span class="op">.</span><span class="fu">parseInt</span><span class="op">(</span>edge<span class="op">.</span><span class="fu">getLabel</span><span class="op">());</span> </span>
+<span id="cb1-2"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> newDistance <span class="op">=</span> dist<span class="op">.</span><span class="fu">get</span><span class="op">(</span>source<span class="op">)</span> <span class="op">+</span> edgeDistance<span class="op">;</span></span></code></pre></div>
+<p><em>Nota: no podemos comparar directamente las cadenas porque se
+haría una comparación lexicográfica y “9” se compararía como menor que
+“10”</em>.</p>
+</section>
+</section>
+<section id="aplicación-de-la-librería-mapa-de-red" class="level3">
+<h3>Aplicación de la librería: mapa de red</h3>
+<p>Como aplicación de la librería hemos creado una representación en
+grafo de un mapa de red muy sencillo con el cálculo simple de latencias
+de red basado en el camino más corto entre nodos del grafo.</p>
+<p><img src="./Practica_6_files/p6_network.svg" alt="Network model" width="900"></p>
+<p>El problema que tenemos con la representación actual del grafo de
+nuestra librería es que al almacenar sólo cadenas nos es difícil guardar
+adecuadamente los dispositivos (<code>Device</code>) como nodos del
+grafo porque perdemos información.</p>
+<p>Por ello, deberás añadir genericidad al grafo para que admita
+cualquier tipo de dato tanto en las etiquetas como en los nodos. La
+implementación completa (que no debes modificar) de este <em>mapa de
+red</em> que se proporciona en el proyecto base de Eclipse ya usa el
+resultado de esa conversión del grafo a tipos genéricos, por lo que no
+compilará hasta que añadas correctamente la genericidad.</p>
+<hr>
+</section>
+</section>
+<section id="tareas-a-realizar" class="level2">
+<h2>Tareas a realizar</h2>
+<p>Deberás modificar el código para realizar la práctica sobre el <a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6_files/proyecto_eclipse_grafo_generics.tgz">proyecto que
+proporcionamos</a>. Éste ya contiene el código del mapa de red
+anteriomente descrito y pruebas unitarias que deberán funcionar una vez
+acabes de realizar todas las tareas que describimos a continuación.</p>
+<section id="introducción-de-genericidad" class="level3">
+<h3>Introducción de genericidad</h3>
+<p>Para ampliar las posibilidades de esta pequeña librería de grafos,
+evitar soluciones como la conversión de tipo cadena a entero usada en la
+clase <code>DijkstraShortestPath</code> que hemos explicado
+anteriormente, y permitir la aplicación sobre un mapa de red también
+descrita arriba, se nos pide que modifiquemos el grafo para que pueda
+contener cualquier tipo de dato como etiqueta, tanto en los nodos como
+en las aristas, pudiendo ser un tipo para los nodos y otro distinto para
+las aristas.</p>
+<p>No mostramos nuevos diagramas de clases sino que indicamos uno a uno
+los pasos que debes realizar y que deberás entender para poder acabar de
+realizar la práctica. <strong>Ten en cuenta que si no eres capaz de
+entender los cambios que tienes que realizar, es posible que la práctica
+no te compile en absoluto.</strong></p>
+<p>Fíjate en el paquete <code>es.ua.dlsi.prog3.p6.network</code> y en el
+test <em>GraphTests.java</em>. Verás como <code>Graph</code> recibe dos
+argumentos de tipo, uno para la etiqueta de los nodos y otro para la de
+las aristas. Parametriza <code>Graph</code>, <code>GraphObject</code>,
+<code>Node</code> y <code>Edge</code> para convertirlas en clases
+genéricas donde el tipo de la etiqueta pasa a ser genérico, de manera
+que el código del paquete <code>network</code> funcione. Usa como
+nombres para los parámetros de tipo <code>LabelType</code>, o
+<code>NodeLabelType</code> y <code>EdgeLabelType</code> cuando sea
+necesario distinguir entre etiquetas de nodo y de arista. Ten en cuenta
+que, al igual que <code>Graph</code>, <code>Edge</code> tendrá dos
+parámetros de tipo: uno para la etiqueta de los nodos y otro para la
+etiqueta de la arista que los conecta.</p>
+<p>En el código de <code>Graph</code> ya usamos tipos genéricos para
+declarar referencias a tipos genéricos definidos en
+<code>java.util</code>, como <code>Map</code> o <code>Set</code>.
+Deberás parametrizar los nodos y aristas adecuadamente.</p>
+<section id="nodenotfoundexception" class="level4">
+<h4>NodeNotFoundException</h4>
+<p>Al implementar esta clase nos encontramos con el problema de que, al
+ser una excepción, no puede ser genérica. Por ello, sólo podemos usar
+<code>Node</code> como <code>Node&lt;?&gt;</code>, que permite cualquier
+tipo. Para el uso que se le da a la clase es más que suficiente.</p>
+<p>Tras introducir correctamente la genericidad, los test en
+<em>GraphTest.java</em> deberían compilar y funcionar correctamente.</p>
+</section>
+<section id="algoritmos-1" class="level4">
+<h4>Algoritmos</h4>
+<section id="dfs-y-dotexporter" class="level5">
+<h5>DFS y DotExporter</h5>
+<p>Para parametrizar las clases <code>DFS</code> y
+<code>DotExporter</code> repetiremos exactamente el mismo proceso que
+hemos realizado para introducir la genericidad en el grafo. Así, la
+clases quedarán definidas como
+<code>DFS&lt;NodeLabelType, EdgeLabelType&gt;</code> y
+<code>DotExporter&lt;NodeLabelType, EdgeLabelType&gt;</code>.</p>
+</section>
+<section id="dijkstrashortestpath" class="level5">
+<h5>DijkstraShortestPath</h5>
+<p>El cálculo del camino más corto requiere de la operación de suma y
+comparación entre los pesos de las aristas. En la implementación basada
+en cadenas esto lo realizábamos convirtiendo la etiqueta cadena de la
+arista en numérica y usando los operadores de comparación y suma nativos
+(<code>&lt;</code>, <code>+</code>, …). Sin embargo, si ahora queremos
+poder operar con cualquier tipo de dato en la etiqueta debemos
+proporcionar una forma para realizar esa operación.</p>
+<p><img src="./Practica_6_files/p6_icost.svg"></p>
+<p>Necesitamos realizar dos acciones. La primera es obligar a que el
+tipo de la etiqueta de la arista sea comparable, es decir, implemente la
+interfaz <code>Comparable</code>.</p>
+<p>La segunda es crear un mecanismo para poder operar con los pesos de
+las aristas, sea cual sea su tipo de dato. Esto lo conseguimos con la
+introducción de una interfaz genérica <code>ICostOperators</code> que
+mostramos en el diagrama y que deberás programar. Esta interfaz define
+tres operaciones genéricas sobre el tipo <code>T</code>: la suma, el
+valor cero y el valor máximo. Fíjate como en el test
+<em>DijkstraShortestPathTest.java</em> se implementa esta interfaz
+mediante una clase anónima.</p>
+<p>Además, es necesario añadir como parámetro una referencia de esta
+clase al constructor de <code>DijkstraShortestPath</code> y almacenarla
+como atributo:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb2-1"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DijkstraShortestPath<span class="op">&lt;</span>NodeLabelType<span class="op">,</span> EdgeLabelType <span class="kw">extends</span> <span class="bu">Comparable</span><span class="op">&lt;</span>EdgeLabelType<span class="op">&gt;&gt;</span> <span class="op">{</span> </span>
+<span id="cb2-2"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb2-3"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> ICostOperators<span class="op">&lt;</span>EdgeLabelType<span class="op">&gt;</span> costOperators<span class="op">;</span></span>
+<span id="cb2-4"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb2-5"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">DijkstraShortestPath</span><span class="op">(</span>Graph<span class="op">&lt;</span>NodeLabelType<span class="op">,</span> EdgeLabelType<span class="op">&gt;</span> graph<span class="op">,</span> ICostOperators<span class="op">&lt;</span>EdgeLabelType<span class="op">&gt;</span> costOperators<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb2-6"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="fu">graph</span> <span class="op">=</span> graph<span class="op">;</span></span>
+<span id="cb2-7"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="fu">costOperators</span> <span class="op">=</span> costOperators<span class="op">;</span></span>
+<span id="cb2-8"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-9"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span></code></pre></div>
+<p>Ahora, las distancias desde nodos almacenadas en la propiedad
+<code>dist</code> no tienen por qué ser <code>Integer</code>, sino que
+son del tipo parametrizado de las aristas <code>EdgeLabelType</code>,
+que sabemos que son comparables. El atributo de coste de la clase
+interna <code>Cost</code> será ahora también de tipo
+<code>EdgeLabelType</code>.</p>
+<p>Como ya no sabemos cuáles son los valores cero y máximo del peso
+coste de una arista, ya que éstos dependen del tipo de dato, usaremos
+los métodos <code>zero()</code> y <code>maximumValue()</code> de
+<code>ICostOperators</code>. En el método <code>compute()</code>,
+utiliza estos métodos donde sea necesario conocer el valor máximo y el
+valor cero del coste de una arista.</p>
+<p>En este código usamos la clase <a href="https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html"><code>PriorityQueue</code></a>
+de <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html"><em>Java
+Collections Frameworks</em></a>. Una cola de prioridad es una cola en la
+que los elementos se encolan ordenados según una <em>prioridad</em>, por
+lo que necesita que le proporcionemos un método de ordenación. Para ello
+empleamos la interfaz <code>Comparator</code>. Puedes ver como se usa en
+nuestra <a href="https://www.dlsi.ua.es//asignaturas/prog3/jcf_facil.html">Guía
+fácil de Java Collection Framework</a>.</p>
+<p>Finalmente, en el código del método <code>processNeighbours()</code>,
+que suma y compara distancias, deberemos sustituir la conversión de
+cadena a entero que teníamos, así como sustituir las sumas y las
+comparaciones directas con los operadores enteros <code>+</code> y
+<code>&lt;</code> por el uso de <code>ICostOperators.add()</code> y
+<code>Comparable.compareTo()</code>. En concreto, deberás sustituir:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb3-1"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">// If new distance is cheaper in cost</span></span>
+<span id="cb3-2"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> edgeDistance <span class="op">=</span> <span class="bu">Integer</span><span class="op">.</span><span class="fu">parseInt</span><span class="op">(</span>edge<span class="op">.</span><span class="fu">getLabel</span><span class="op">());</span></span>
+<span id="cb3-3"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> newDistance <span class="op">=</span> dist<span class="op">.</span><span class="fu">get</span><span class="op">(</span>source<span class="op">)</span> <span class="op">+</span> edgeDistance<span class="op">;</span></span>
+<span id="cb3-4"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-4" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb3-5"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">// If new distance is cheaper in cost</span></span>
+<span id="cb3-6"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>newDistance <span class="op">&lt;</span> dist<span class="op">.</span><span class="fu">get</span><span class="op">(</span>target<span class="op">))</span> <span class="op">{</span></span></code></pre></div>
+<p>por</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb4-1"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">// If new distance is cheaper in cost</span></span>
+<span id="cb4-2"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-2" aria-hidden="true" tabindex="-1"></a>EdgeLabelType edgeDistance <span class="op">=</span> edge<span class="op">.</span><span class="fu">getLabel</span><span class="op">();</span></span>
+<span id="cb4-3"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-3" aria-hidden="true" tabindex="-1"></a>EdgeLabelType newDistance <span class="op">=</span> costOperators<span class="op">.</span><span class="fu">add</span><span class="op">(</span>dist<span class="op">.</span><span class="fu">get</span><span class="op">(</span>source<span class="op">),</span> edgeDistance<span class="op">);</span></span>
+<span id="cb4-4"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-4" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-5"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">// If new distance is cheaper in cost</span></span>
+<span id="cb4-6"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="op">(</span>newDistance<span class="op">.</span><span class="fu">compareTo</span><span class="op">(</span>dist<span class="op">.</span><span class="fu">get</span><span class="op">(</span>target<span class="op">))</span> <span class="op">&lt;</span> <span class="dv">0</span><span class="op">)</span> <span class="op">{</span></span></code></pre></div>
+</section>
+<section id="algorithms" class="level5">
+<h5>Algorithms</h5>
+<p>En el código anterior de los grafos con cadenas, los métodos
+estáticos de la clase <code>Algorithms</code> usaban tipos no
+parametrizados. Sin embargo, ahora todas las clases del grafo lo son,
+por lo que debes parametrizar los métodos estáticos de
+<code>Algorithms</code> para que compilen y funcionen correctamente con
+las clases genéricas. Ojo, no hay que parametrizar la clase
+<code>Algorithms</code>, sino sus métodos estáticos.</p>
+<p>Ten en cuenta que para parametrizar <code>shortestPathCost()</code>
+el tipo de la arista debe implementar la interfaz
+<code>Comparable</code>. Además, la signatura del método cambia de la
+siguiente forma:</p>
+<ul>
+<li>devuelve <code>EdgeLabelType</code> (recuerda: este es el tipo de
+dato que define el ‘coste’ de una arista)</li>
+<li>debemos añadirle un cuarto argumento de tipo
+<code>ICostOperators&lt;EdgeLabelType&gt;</code> que luego pasaremos al
+constructor de <code>DijkstraShortestPath</code>.</li>
+</ul>
+</section>
+</section>
+<section id="aplicación-mapa-de-red" class="level4">
+<h4>Aplicación mapa de red</h4>
+<p>En el código que hemos proporcionado en la clases
+<code>Network</code> y <code>NetworkTest</code> vemos que no podemos
+realizar la llamada a <code>printLatencyMap()</code> por el borrado de
+tipos de Java:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb5-1"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> Network <span class="op">{</span></span>
+<span id="cb5-2"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb5-3"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">printLatencyMap</span><span class="op">(</span><span class="bu">List</span><span class="op">&lt;</span>Device<span class="op">&gt;</span> devices<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb5-4"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">...</span></span>
+<span id="cb5-5"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb5-6"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb5-8"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">static</span> <span class="dt">final</span> <span class="dt">void</span> <span class="fu">main</span><span class="op">(</span><span class="bu">String</span> <span class="op">[]</span> args<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb5-9"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-9" aria-hidden="true" tabindex="-1"></a>        Network network <span class="op">=</span> <span class="kw">new</span> <span class="fu">Network</span><span class="op">();</span></span>
+<span id="cb5-10"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-10" aria-hidden="true" tabindex="-1"></a>        Computer c1 <span class="op">=</span> <span class="kw">new</span> <span class="fu">Computer</span><span class="op">(</span><span class="kw">...</span><span class="op">..);</span></span>
+<span id="cb5-11"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">...</span></span>
+<span id="cb5-12"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">List</span><span class="op">&lt;</span>Computer<span class="op">&gt;</span> computers <span class="op">=</span> <span class="bu">Arrays</span><span class="op">.</span><span class="fu">asList</span><span class="op">(</span>c1<span class="op">,</span> c2<span class="op">);</span></span>
+<span id="cb5-13"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#cb5-13" aria-hidden="true" tabindex="-1"></a>        network<span class="op">.</span><span class="fu">printLatencyMap</span><span class="op">(</span>computers<span class="op">);</span> <span class="co">// Error de compilación</span></span></code></pre></div>
+<p>Para solucionarlo debes usar un comodín para tipos genéricos en los
+métodos <code>printLatencyMap</code> y <code>computeLatencyMap</code>.
+En lugar de <code>List&lt;Device&gt;</code>, para que admita cualquier
+tipo que herede de <code>Device</code> deberás usar
+<code>List&lt;? extends Device&gt;</code>.</p>
+<p>Cuando esté listo, ejecuta <code>Network.main()</code> o
+<em>NetworkTest.java</em> para ver que todo funciona.</p>
+</section>
+</section>
+<section id="uso-de-la-reflexión-en-java" class="level3">
+<h3>Uso de la reflexión en Java</h3>
+<p>La última parte de la práctica consiste en que utilicemos el
+mecamismo de la reflexión en Java.</p>
+<p>Para ello hemos creado una serie de clases descritas en el siguiente
+UML.</p>
+<p><img src="./Practica_6_files/p6_reflection.svg" alt="Refexión" width="1200"></p>
+<p>La clase <code>Code2Graph</code> construye un grafo
+<code>Graph</code> que muestra las dependencias entre clases. Para ello
+se apoya en una serie de clases que usan reflexión. Aunque en las
+pruebas unitarias se evalúa si todo funciona, puedes usar el
+<code>main</code> de esa clase si quieres experimentar con ella.</p>
+<p>La tarea que deberás realizar es la de implementar las clases
+<code>ClassAnalyzer</code> y <code>ReflectionUtils</code> del paquete
+<code>es.ua.dlsi.prog3.p6.reflection.impl</code> que te damos
+vacías.</p>
+<p>Damos pistas a continuación de cómo implementarlas mediante el uso de
+la reflexión de Java.</p>
+<section id="classanalyzer" class="level5">
+<h5><code>ClassAnalyzer</code></h5>
+<ul>
+<li><code>findDependantClasses</code>: <strong>Este método se da ya
+implementado</strong>. Puede servirte de guía a la hora de usar la
+reflexión. Recorre los constructores (<code>getConstructors()</code>) y
+métodos (<code>getDeclaredMethods()</code>) de la clase y devuelve las
+clases de sus parámetros (<code>getParameterTypes()</code>) y tipos de
+retorno (<code>getReturnType()</code>).</li>
+<li><code>findParentClass</code>: devuelve la superclase de la clase
+dada, o <code>null</code> si ésta no tiene superclase.</li>
+<li><code>haveSamePackage</code>: evalúa si dos clases pertenecen al
+mismo paquete.</li>
+<li><code>findAssociatedClasses</code>: devuelve un conjunto con las
+clases a las que pertenecen los atributos definidos en la clase
+(<code>getDeclaredFields()</code>). Usa el método
+<code>Field.getType()</code> para obtener el tipo del atributo.</li>
+</ul>
+</section>
+<section id="reflectionutils" class="level5">
+<h5><code>ReflectionUtils</code></h5>
+<ul>
+<li><code>instantiate</code>: crea una nueva instancia de la clase. Dado
+que no se le pasa parámetros al constructor podemos usar el método
+<code>newInstance()</code> de la clase. Fíjate cómo hemos parametrizado
+el método con <code>&lt;T&gt;</code> para que el código cliente de este
+método no necesite hacer ninguna conversión de tipo
+(<code>instantiate()</code> sí tendrá que hacer conversión de tipo
+<code>(T)</code>).</li>
+<li><code>findClassInPackage</code>: compondrá el nombre cualificado de
+la clase concatenando el paquete y el nombre de la clase, interponiendo
+un punto (“.”), y usará el método <code>forName()</code> de
+<code>Class</code>.</li>
+<li><code>isImplementingInterface</code>: para saber si una clase
+implementa un interfaz la forma más sencilla es preguntar si podemos
+asignar esa clase al interfaz (véase <code>isAssignableFrom()</code> en
+<code>Class</code>).</li>
+</ul>
+<p>Puedes ver cómo usamos estas dos clases en el código de
+<code>Code2Graph</code>. Por ejemplo, es interesante que compruebes cómo
+la propiedad <code>IClassAnalyzer classAnalyzer</code> de esta clase no
+se crea a través de una cláusula <code>new</code>, sino que se usa
+reflexión para localizar la clase en un paquete que proporcionamos en
+forma de cadena (véase método <code>createGraph</code>).</p>
+</section>
+</section>
+</section>
+<section id="documentation" class="level2">
+<h2>Documentación</h2>
+<p><strong>No es necesario documentar esta práctica</strong></p>
+<p>Puedes documentar el código que escribas, de hecho te lo
+recomendamos, pero no se evaluará.</p>
+</section>
+<section id="requisitos-mínimos-para-evaluar-la-práctica" class="level2">
+<h2>Requisitos mínimos para evaluar la práctica</h2>
+<ul>
+<li>La práctica debe poder ejecutarse sin errores de compilación.</li>
+<li>Ninguna operación debe emitir ningún tipo de comentario o
+mensaje&nbsp;por salida estándar, a menos que se indique lo contrario. Evita
+también los mensajes por la salida de error.</li>
+<li>Se debe respetar de manera estricta el formato del nombre de
+<strong>todas las propiedades</strong> de las clases, tanto en&nbsp;cuanto a
+ámbito de visibilidad como en cuanto a tipo y forma de escritura. En
+particular se debe respetar escrupulosamente la distinción entre
+atributos de clase y de instancia, así como las mayúsculas y minúsculas
+en los identificadores.</li>
+</ul>
+</section>
+<section id="entrega-de-la-práctica" class="level2">
+<h2>Entrega de la práctica</h2>
+<p>La práctica se entrega durante el control en el <a href="http://pracdlsi.dlsi.ua.es/">servidor de prácticas del
+DLSI</a>.</p>
+<p>Debes subir allí un archivo comprimido con tu código fuente (sólo
+archivos .java). En un terminal, sitúate en el directorio ‘src’ de tu
+proyecto Eclipse e introduce la orden</p>
+<p><code>tar czvf prog3-p6.tgz *</code></p>
+<p>Esto comprimirá todo el código que hay en <em>src/</em>, incluyendo
+el de aquellas clases que ya se daban implementadas. Esto es correcto y
+debes entregarlo así.</p>
+<p>Sube este fichero <code>prog3-p6.tgz</code> al servidor de prácticas.
+Sigue las instrucciones de la página para entrar como usuario y subir tu
+trabajo.</p>
+</section>
+<section id="evaluación" class="level2">
+<h2>Evaluación&nbsp;</h2>
+<p>La corrección de la práctica es automática. Esto significa que se
+deben respetar estrictamente los formatos de entrada y salida
+especificados en los enunciados, así como la interfaz pública de las
+clases, tanto en la signatura de los métodos (nombre del método, número,
+tipo y orden de los argumentos de entrada y el tipo devuelto) como en el
+funcionamiento de éstos. Así, por ejemplo, el método <span style="font-family:&#39;Courier New&#39;;">Clase(int,int)</span>&nbsp;debe
+tener exactamente dos argumentos de tipo <em>int</em>.</p>
+<p>Tienes más información sobre el sistema de evaluación de prácticas en
+la ficha de la asignatura.</p>
+<p>Además de la corrección automática, se va a utilizar una aplicación
+detectora de plagios.</p>
+<p>Se indica a continuación la normativa aplicable de la Escuela
+Politécnica Superior de la Universidad de Alicante en caso de
+plagio:</p>
+<hr>
+<p>“Los trabajos teórico/prácticos realizados han de ser originales. La
+detección de copia o plagio supondrá la calificación de”0” en la prueba
+correspondiente. Se informará la dirección de Departamento y de la EPS
+sobre esta incidencia. La reiteración en la conducta en esta u otra
+asignatura conllevará la notificación al vicerrectorado correspondiente
+de las faltas cometidas para que estudien el caso y sancionen según la
+legislación vigente”.</p>
+<hr>
+</section>
+</section>
+
+<!-- Begin PROG3 Footer -->
+
+</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_CO" style="border-bottom:0"><img alt="Licencia Creative Commons" src="./Practica_6_files/80x15.png"></a>
+&nbsp; © Pedro José Ponce de León, David Rizo Valero, Felipe Sánchez Martínez. Universitat d'Alacant. Diseño: <a style="border-bottom:0" href="http://html5up.net/">HTML5 UP</a>. Foto: Bouwe Brouwer (Own work) [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3ALeeuwarden_-_Tegeltableau_Escher.jpg">via Wikimedia Commons</a>.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./Practica_6_files/jquery.min.js"></script>
+			<script src="./Practica_6_files/jquery.scrollzer.min.js"></script>
+			<script src="./Practica_6_files/jquery.scrolly.min.js"></script>
+			<script src="./Practica_6_files/skel.min.js"></script>
+			<script src="./Practica_6_files/util.js"></script>
+			<!--[if lte IE 8]><script src="../../../theme/readonly/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="./Practica_6_files/main.js"></script>
+
+<!-- End PROG3 Footer -->
+
+
+<div id="titleBar"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#header" class="toggle"></a><span class="title"><a href="https://www.dlsi.ua.es/asignaturas/prog3/desde-2022-2023/web/p6/Practica_6.html#">Programación 3</a></span></div></body></html>

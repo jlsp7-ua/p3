@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="700px" preserveAspectRatio="none" style="width:1790px;height:700px;background:#FFFFFF;" version="1.1" viewBox="0 0 1790 700" width="1790px" zoomAndPan="magnify"><defs/><g><!--MD5=[212ae7d3f65ff18c211c6142b573cbbf]
+cluster es.ua.dlsi.prog3.p6.algorithms--><g id="cluster_es.ua.dlsi.prog3.p6.algorithms"><path d="M319.5,8 L534.5,8 A3.75,3.75 0 0 1 537,10.5 L544,30.4883 L1273.5,30.4883 A2.5,2.5 0 0 1 1276,32.9883 L1276,690.5 A2.5,2.5 0 0 1 1273.5,693 L319.5,693 A2.5,2.5 0 0 1 317,690.5 L317,10.5 A2.5,2.5 0 0 1 319.5,8 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="317" x2="544" y1="30.4883" y2="30.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="214" x="321" y="23.5352">es.ua.dlsi.prog3.p6.algorithms</text></g><!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang--><g id="cluster_java.lang"><path d="M1302.5,6 L1366.5,6 A3.75,3.75 0 0 1 1369,8.5 L1376,28.4883 L1773.5,28.4883 A2.5,2.5 0 0 1 1776,30.9883 L1776,133.5 A2.5,2.5 0 0 1 1773.5,136 L1302.5,136 A2.5,2.5 0 0 1 1300,133.5 L1300,8.5 A2.5,2.5 0 0 1 1302.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1300" x2="1376" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="1304" y="21.5352">java.lang</text></g><!--MD5=[9592ef55f1c8392019ddb2ccaaa5bf70]
+cluster es.ua.dlsi.prog3.p6.model--><g id="cluster_es.ua.dlsi.prog3.p6.model"><path d="M8.5,575 L189.5,575 A3.75,3.75 0 0 1 192,577.5 L199,597.4883 L290.5,597.4883 A2.5,2.5 0 0 1 293,599.9883 L293,665.5 A2.5,2.5 0 0 1 290.5,668 L8.5,668 A2.5,2.5 0 0 1 6,665.5 L6,577.5 A2.5,2.5 0 0 1 8.5,575 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="199" y1="597.4883" y2="597.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="10" y="590.5352">es.ua.dlsi.prog3.p6.model</text></g><!--MD5=[eac6bbc2a6af1a5da138885cd63c1177]
+class GraphAlgorithmException--><g id="elem_GraphAlgorithmException"><rect codeLine="11" fill="#F1F1F1" height="75.4648" id="GraphAlgorithmException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="321" x="925.5" y="43"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="996.5" y="61.5352">GraphAlgorithmException</text><line style="stroke:#181818;stroke-width:0.5;" x1="926.5" x2="1245.5" y1="69.4883" y2="69.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="204" x="931.5" y="87.0234">-{final} serialVersionUID: long</text><line style="stroke:#181818;stroke-width:0.5;" x1="926.5" x2="1245.5" y1="93.9766" y2="93.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="309" x="931.5" y="111.5117">+GraphAlgorithmException(message: String)</text></g><!--MD5=[4533588fb66c6fa31a6e04bf29ae6161]
+class Algorithms--><g id="elem_Algorithms"><rect codeLine="15" fill="#F1F1F1" height="91.9531" id="Algorithms" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="490" x="544" y="183"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="751" y="201.5352">Algorithms</text><line style="stroke:#181818;stroke-width:0.5;" x1="545" x2="1033" y1="209.4883" y2="209.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="545" x2="1033" y1="217.4883" y2="217.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="343" x="550" y="235.0234">+dfs(graph: Graph, fromNode: Node): List&lt;Node&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="478" x="550" y="251.5117">+shortestPathCost(graph: Graph, fromNode: Node, toNode: Node): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="202" x="550" y="268">+exportDot(File, Graph): void</text></g><!--MD5=[3fecdee75300ceae8898777e9c923dcc]
+class DFS--><g id="elem_DFS"><rect codeLine="21" fill="#F1F1F1" height="106.0859" id="DFS" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="239" x="333.5" y="377"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="110" x="398" y="393.6016">«package visibility»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="440" y="409.668">DFS</text><line style="stroke:#181818;stroke-width:0.5;" x1="334.5" x2="571.5" y1="417.6211" y2="417.6211"/><line style="stroke:#181818;stroke-width:0.5;" x1="334.5" x2="571.5" y1="425.6211" y2="425.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="339.5" y="443.1563">+DFS(graph: Graph)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="339.5" y="459.6445">+run(node: Node): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="339.5" y="476.1328">+getVisitSequence(): List&lt;Node&gt;</text></g><!--MD5=[c8860a7c916dc983410fb07a2b60ecab]
+class DijkstraShortestPath--><g id="elem_DijkstraShortestPath"><rect codeLine="27" fill="#F1F1F1" height="122.5742" id="DijkstraShortestPath" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="344" x="916" y="368.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="110" x="1033" y="385.1016">«package visibility»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1018.5" y="401.168">DijkstraShortestPath</text><line style="stroke:#181818;stroke-width:0.5;" x1="917" x2="1259" y1="409.1211" y2="409.1211"/><line style="stroke:#181818;stroke-width:0.5;" x1="917" x2="1259" y1="417.1211" y2="417.1211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="922" y="434.6563">+DijkstraShortestPath(graph: Graph)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="922" y="451.1445">+compute(fromNode: Node): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="332" x="922" y="467.6328">+getComputedDistances(): Map&lt;Node, Integer&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="278" x="922" y="484.1211">-processNeighbours(source: Node): void</text></g><!--MD5=[b703e6592dd32c7f1880e19159e05668]
+class DotExporter--><g id="elem_DotExporter"><rect codeLine="35" fill="#F1F1F1" height="155.5508" id="DotExporter" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="273" x="607.5" y="352"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="110" x="689" y="368.6016">«package visibility»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="702" y="384.668">DotExporter</text><line style="stroke:#181818;stroke-width:0.5;" x1="608.5" x2="879.5" y1="392.6211" y2="392.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="204" x="613.5" y="410.1563">-{final} EMPTY_STRING: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="608.5" x2="879.5" y1="417.1094" y2="417.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="613.5" y="434.6445">-generateDotID(IIdentifiable): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="613.5" y="451.1328">-escapeLabel(String): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="613.5" y="467.6211">-printNodes(PrintStream, Graph): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="613.5" y="484.1094">-printEdges(PrintStream, Graph): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="613.5" y="500.5977">+export(File, Graph): void</text></g><!--MD5=[fe383a3a298b1957f875e7d4d13e3ed8]
+class DijkstraShortestPath.Cost--><g id="elem_DijkstraShortestPath.Cost"><rect codeLine="55" fill="#F1F1F1" height="91.9531" id="DijkstraShortestPath.Cost" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="834.5" y="585"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="842" y="603.5352">DijkstraShortestPath.Cost</text><line style="stroke:#181818;stroke-width:0.5;" x1="835.5" x2="1022.5" y1="611.4883" y2="611.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="835.5" x2="1022.5" y1="619.4883" y2="619.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="840.5" y="637.0234">~Cost()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="840.5" y="653.5117">~Cost(Node, int)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="840.5" y="670">+compare(Cost, Cost): int</text></g><!--MD5=[46c05dfe24a0851e179497c4631d3ff2]
+class java.lang.Exception--><g id="elem_java.lang.Exception"><rect fill="#F1F1F1" height="42.4883" id="java.lang.Exception" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="1316" y="59.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1319" y="78.0352">Exception</text><line style="stroke:#181818;stroke-width:0.5;" x1="1317" x2="1389" y1="85.9883" y2="85.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1317" x2="1389" y1="93.9883" y2="93.9883"/></g><!--MD5=[58b9a1998a5b60c7da72e281cabe28d0]
+class java.lang.FileNotFoundException--><g id="elem_java.lang.FileNotFoundException"><rect fill="#F1F1F1" height="42.4883" id="java.lang.FileNotFoundException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="1425" y="59.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="1428" y="78.0352">FileNotFoundException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1426" x2="1590" y1="85.9883" y2="85.9883"/><line style="stroke:#181818;stroke-width:0.5;" x1="1426" x2="1590" y1="93.9883" y2="93.9883"/></g><!--MD5=[853266727a20cc8ed824ed95d0b7ad9b]
+class java.lang.Comparator--><g id="elem_java.lang.Comparator"><rect codeLine="61" fill="#F1F1F1" height="78.8867" id="java.lang.Comparator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="1626" y="41"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="1648" y="60.4902">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1637.5" y="76.5566">Comparator</text><rect fill="#FFFFFF" height="44.3984" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="26" x="1737" y="38"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1748" y="50.6016"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="8" x="1746" y="64.7344">T</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="1748" y="78.8672"> </text><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1759" y1="87.3984" y2="87.3984"/><line style="stroke:#181818;stroke-width:0.5;" x1="1627" x2="1759" y1="95.3984" y2="95.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1632" y="112.9336">compare(T, T): int</text></g><!--MD5=[0ab447833e303a770f7eb2e151f6e856]
+class es.ua.dlsi.prog3.p6.model.NodeNotFoundException--><g id="elem_es.ua.dlsi.prog3.p6.model.NodeNotFoundException"><rect fill="#F1F1F1" height="42.4883" id="es.ua.dlsi.prog3.p6.model.NodeNotFoundException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="22" y="610"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="25" y="628.5352">NodeNotFoundException</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="199" y1="636.4883" y2="636.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="199" y1="644.4883" y2="644.4883"/></g><!--MD5=[88a5ebef56db08bd28e4a4dc3d86e684]
+class es.ua.dlsi.prog3.p6.model.Node--><g id="elem_es.ua.dlsi.prog3.p6.model.Node"><rect fill="#F1F1F1" height="42.4883" id="es.ua.dlsi.prog3.p6.model.Node" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="42" x="235" y="610"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="238" y="628.5352">Node</text><line style="stroke:#181818;stroke-width:0.5;" x1="236" x2="276" y1="636.4883" y2="636.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="236" x2="276" y1="644.4883" y2="644.4883"/></g><!--MD5=[095a96923ac810fcb06e5246fe244932]
+reverse link java.lang.Exception to GraphAlgorithmException--><g id="link_java.lang.Exception_GraphAlgorithmException"><path codeLine="44" d="M1295.39,80.5 C1279.13,80.5 1262.87,80.5 1246.62,80.5 " fill="none" id="java.lang.Exception-backto-GraphAlgorithmException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1295.6,73.5,1315.6,80.5,1295.6,87.5,1295.6,73.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[55d1c0ecefe3df893c08810656038bfb]
+reverse link es.ua.dlsi.prog3.p6.model.NodeNotFoundException to Algorithms--><g id="link_es.ua.dlsi.prog3.p6.model.NodeNotFoundException_Algorithms"><path codeLine="45" d="M122.07,605.12 C147.75,550.35 216.86,418.94 316,352 C383.21,306.62 466.2,278.12 543.82,260.22 " fill="none" id="es.ua.dlsi.prog3.p6.model.NodeNotFoundException-backto-Algorithms" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="119.86,609.86,127.284,603.3882,121.9697,605.3269,120.0311,600.0126,119.86,609.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d12d82587a09bd1ec979d63ca367c223]
+reverse link java.lang.FileNotFoundException to Algorithms--><g id="link_java.lang.FileNotFoundException_Algorithms"><path codeLine="46" d="M1478.24,104.82 C1459.21,118.48 1433.42,134.82 1408,144 C1289.17,186.94 1150.31,208.19 1034.25,218.6 " fill="none" id="java.lang.FileNotFoundException-backto-Algorithms" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1482.44,101.77,1472.8096,103.8326,1478.3976,104.7126,1477.5176,110.3006,1482.44,101.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[293149d551caa4947e62dc7087564224]
+reverse link GraphAlgorithmException to Algorithms--><g id="link_GraphAlgorithmException_Algorithms"><path codeLine="48" d="M1007.11,120.42 C968.1,139.65 920.82,162.98 880.27,182.98 " fill="none" id="GraphAlgorithmException-backto-Algorithms" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1011.82,118.09,1001.9791,118.4869,1007.3365,120.3032,1005.5203,125.6605,1011.82,118.09" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e9610a8a738c6adb2e12265bc3c02aeb]
+link Algorithms to DFS--><g id="link_Algorithms_DFS"><path codeLine="50" d="M712.76,275.16 C663.04,304.6 597.85,343.21 545.22,374.38 " fill="none" id="Algorithms-to-DFS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="540.81,376.99,550.59,375.8278,545.1075,374.4343,546.501,368.9518,540.81,376.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[95b8e1e40182fa19e688bea0e96506f0]
+link Algorithms to DijkstraShortestPath--><g id="link_Algorithms_DijkstraShortestPath"><path codeLine="51" d="M856.85,275.16 C896.99,301.87 948.46,336.13 992.64,365.54 " fill="none" id="Algorithms-to-DijkstraShortestPath" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="996.9,368.37,991.6303,360.0495,992.7397,365.5965,987.1927,366.7059,996.9,368.37" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f83380eaaee33cb70fd892b202b118d4]
+link Algorithms to DotExporter--><g id="link_Algorithms_DotExporter"><path codeLine="52" d="M778.79,275.16 C774.02,296.25 768.19,322.04 762.67,346.43 " fill="none" id="Algorithms-to-DotExporter" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="761.5,351.61,767.3841,343.7121,762.6013,346.7328,759.5806,341.95,761.5,351.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d868f766e221fa4ffb6b50121a2c3d69]
+link DijkstraShortestPath.Cost to java.lang.Comparator--><g id="link_DijkstraShortestPath.Cost_java.lang.Comparator"><path codeLine="65" d="M1023.64,620.63 C1127.34,608.98 1285.78,586.68 1337,555 C1503.6,451.95 1619.37,240.12 1667.71,138.43 " fill="none" id="DijkstraShortestPath.Cost-to-java.lang.Comparator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1661.42,135.37,1676.22,120.2,1674.11,141.28,1661.42,135.37" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="1574" y="318.5684">«bind» DijkstraShortestPath.Cost</text></g><!--MD5=[379025d4604f7e40905aec01a2da8f10]
+link DijkstraShortestPath.Cost to es.ua.dlsi.prog3.p6.model.Node--><g id="link_DijkstraShortestPath.Cost_es.ua.dlsi.prog3.p6.model.Node"><path codeLine="67" d="M822.45,631 C822.45,631 467.21,631 290.1,631 " fill="none" id="DijkstraShortestPath.Cost-es.ua.dlsi.prog3.p6.model.Node" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="277.03,631,286.03,635,282.03,631,286.03,627,277.03,631" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="282.03" x2="290.03" y1="631" y2="631"/><polygon fill="none" points="834.45,631,828.45,627,822.45,631,828.45,635,834.45,631" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="285.0083" y="626.1494">1</text></g><!--MD5=[27917bcbeb57ef12b11b8120aeed07bd]
+link DijkstraShortestPath to DijkstraShortestPath.Cost--><g id="link_DijkstraShortestPath_DijkstraShortestPath.Cost"><path codeLine="70" d="M1032.1601,500.8956 C1032.1601,500.8956 991.27,552.06 973.3,574.56 " fill="none" id="DijkstraShortestPath-DijkstraShortestPath.Cost" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="965.01,584.94,973.7557,580.411,968.1335,581.0357,967.5088,575.4134,965.01,584.94" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="968.1335" x2="973.12" y1="581.0357" y2="574.78"/><polygon fill="#181818" points="1039.65,491.52,1032.7799,493.7111,1032.1601,500.8956,1039.0302,498.7044,1039.65,491.52" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="329" x="999" y="551.5684">{java.util.PriorityQueue&lt;DijkstraShortestPath.Cost&gt;}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="961.9115" y="574.3343">n</text></g><!--MD5=[34179f042db46dfed71c638b67a82929]
+link DijkstraShortestPath to es.ua.dlsi.prog3.p6.model.NodeNotFoundException--><g id="link_DijkstraShortestPath_es.ua.dlsi.prog3.p6.model.NodeNotFoundException"><path codeLine="71" d="M952.62,491.52 C934.52,497.93 916,503.68 898,508 C603.04,578.87 506.96,474.65 218,567 C190.39,575.82 162.27,592.75 141.79,606.84 " fill="none" id="DijkstraShortestPath-to-es.ua.dlsi.prog3.p6.model.NodeNotFoundException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="137.54,609.8,147.2109,607.9361,141.6422,606.9413,142.637,601.3726,137.54,609.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a8f959c8e9a65cff88faf6fc19129fd]
+link DijkstraShortestPath to GraphAlgorithmException--><g id="link_DijkstraShortestPath_GraphAlgorithmException"><path codeLine="72" d="M1087.65,368.31 C1087.25,297.99 1086.59,183.98 1086.24,123.04 " fill="none" id="DijkstraShortestPath-to-GraphAlgorithmException" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1086.21,118.03,1082.2615,127.0527,1086.2386,123.0299,1090.2614,127.007,1086.21,118.03" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b4fb1a6a914de7b16979e3f47cedbe7e]
+@startuml "p6_string_graph_algorithms"
+skinparam classAttributeIconSize 0
+hide circle
+'skinparam genericDisplay old
+!function $paramType($T) 
+!$nl = "\n"
+!$space = "  "
+!return $nl + $space + $T + $space + $nl
+!endfunction 
+
+package es.ua.dlsi.prog3.p6.algorithms {
+    class GraphAlgorithmException {
+        -{static} {final} serialVersionUID: long
+        +GraphAlgorithmException(message: String)
+    }
+    class Algorithms {
+        +{static} dfs(graph: Graph, fromNode: Node): List<Node>
+        +{static} shortestPathCost(graph: Graph, fromNode: Node, toNode: Node): int
+        +{static} exportDot(File, Graph): void
+    }
+
+    class DFS <<package visibility>> {
+        +DFS(graph: Graph)
+        +run(node: Node): void
+        +getVisitSequence(): List<Node> 
+    }
+
+    class DijkstraShortestPath  <<package visibility>> {
+        +DijkstraShortestPath(graph: Graph)
+        +compute(fromNode: Node): void
+        +getComputedDistances(): Map<Node, Integer>
+        -processNeighbours(source: Node): void
+    }
+
+
+    class DotExporter  <<package visibility>> {
+        - {static} {final} EMPTY_STRING: String
+        - generateDotID(IIdentifiable): String
+        - escapeLabel(String): String
+        - printNodes(PrintStream, Graph): void
+        - printEdges(PrintStream, Graph): void
+        + export(File, Graph): void
+    }
+
+    java.lang.Exception <|- - GraphAlgorithmException
+    es.ua.dlsi.prog3.p6.model.NodeNotFoundException <.. Algorithms
+    java.lang.FileNotFoundException <.. Algorithms
+    
+    GraphAlgorithmException <.. Algorithms
+
+    Algorithms ..> DFS    
+    Algorithms ..> DijkstraShortestPath
+    Algorithms ..> DotExporter
+
+    ' dikjstra
+    class DijkstraShortestPath.Cost {
+        ~Cost()
+        ~Cost(Node, int)
+        +compare(Cost, Cost): int
+    }
+
+    class java.lang.Comparator<$paramType(T)> <<interface>> {
+        compare(T, T): int
+    }
+
+    DijkstraShortestPath.Cost ..|> java.lang.Comparator: <<bind>> DijkstraShortestPath.Cost 
+    'DijkstraShortestPath +- - DijkstraShortestPath.Cost
+    DijkstraShortestPath.Cost o- -> "1" es.ua.dlsi.prog3.p6.model.Node
+    'class "PriorityQueue<DijkstraShortestPath.Cost>" as pq
+
+    DijkstraShortestPath *- -> "n" DijkstraShortestPath.Cost : {java.util.PriorityQueue<DijkstraShortestPath.Cost>}
+    DijkstraShortestPath ..> es.ua.dlsi.prog3.p6.model.NodeNotFoundException
+    DijkstraShortestPath ..> GraphAlgorithmException
+}
+
+@enduml
+
+@startuml "p6_string_graph_algorithms"
+skinparam classAttributeIconSize 0
+hide circle
+
+package es.ua.dlsi.prog3.p6.algorithms {
+    class GraphAlgorithmException {
+        -{static} {final} serialVersionUID: long
+        +GraphAlgorithmException(message: String)
+    }
+    class Algorithms {
+        +{static} dfs(graph: Graph, fromNode: Node): List<Node>
+        +{static} shortestPathCost(graph: Graph, fromNode: Node, toNode: Node): int
+        +{static} exportDot(File, Graph): void
+    }
+
+    class DFS <<package visibility>> {
+        +DFS(graph: Graph)
+        +run(node: Node): void
+        +getVisitSequence(): List<Node> 
+    }
+
+    class DijkstraShortestPath  <<package visibility>> {
+        +DijkstraShortestPath(graph: Graph)
+        +compute(fromNode: Node): void
+        +getComputedDistances(): Map<Node, Integer>
+        -processNeighbours(source: Node): void
+    }
+
+
+    class DotExporter  <<package visibility>> {
+        - {static} {final} EMPTY_STRING: String
+        - generateDotID(IIdentifiable): String
+        - escapeLabel(String): String
+        - printNodes(PrintStream, Graph): void
+        - printEdges(PrintStream, Graph): void
+        + export(File, Graph): void
+    }
+
+    java.lang.Exception <|- - GraphAlgorithmException
+    es.ua.dlsi.prog3.p6.model.NodeNotFoundException <.. Algorithms
+    java.lang.FileNotFoundException <.. Algorithms
+    
+    GraphAlgorithmException <.. Algorithms
+
+    Algorithms ..> DFS    
+    Algorithms ..> DijkstraShortestPath
+    Algorithms ..> DotExporter
+
+    class DijkstraShortestPath.Cost {
+        ~Cost()
+        ~Cost(Node, int)
+        +compare(Cost, Cost): int
+    }
+
+    class java.lang.Comparator<\n  T  \n> <<interface>> {
+        compare(T, T): int
+    }
+
+    DijkstraShortestPath.Cost ..|> java.lang.Comparator: <<bind>> DijkstraShortestPath.Cost 
+    DijkstraShortestPath.Cost o- -> "1" es.ua.dlsi.prog3.p6.model.Node
+
+    DijkstraShortestPath *- -> "n" DijkstraShortestPath.Cost : {java.util.PriorityQueue<DijkstraShortestPath.Cost>}
+    DijkstraShortestPath ..> es.ua.dlsi.prog3.p6.model.NodeNotFoundException
+    DijkstraShortestPath ..> GraphAlgorithmException
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
